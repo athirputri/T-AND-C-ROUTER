@@ -1,6 +1,6 @@
-// Pages
-import Index from "pages";
+// Pages Component
 import Home from "pages/Home";
+import Index from "pages";
 import Product from "pages/Product";
 import { Layout } from "components/Layout";
 import ProductId from "pages/Product/Id/index";

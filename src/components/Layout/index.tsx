@@ -1,7 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
 import { cn, generateUuid } from "lib/listFunc";
+import { useLocation } from "react-router-dom";
 
 export const Layout = () => {
+  const { pathname } = useLocation();
+
   return (
     <>
       <div className={cn("flex gap-2 items-center bg-blue-600 p-4")}>
@@ -24,8 +27,9 @@ export const Layout = () => {
           Product By Id
         </Link>
       </div>
-
-      <Outlet />
+      <div className="p-4">
+        <Outlet context={{ pathname }} />
+      </div>
     </>
   );
 };

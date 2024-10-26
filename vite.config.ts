@@ -11,6 +11,7 @@ export default defineConfig({
       components: "/src/components",
       routes: "/src/routes",
       lib: "/src/lib",
+      context: "/src/context",
     },
   },
 });

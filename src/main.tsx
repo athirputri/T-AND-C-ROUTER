@@ -3,14 +3,17 @@ import App from "./App.tsx";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import TanstackQuery from "context/TanstackQuery";
 
 const root = document.getElementById("root");
 if (!root) throw new Error("Root not defined!");
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <TanstackQuery>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </TanstackQuery>
   </StrictMode>
 );

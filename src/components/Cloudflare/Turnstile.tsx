@@ -1,7 +1,7 @@
-import Turnstile, { useTurnstile } from "react-turnstile";
+import Turnstile from "react-turnstile";
 
 function TurnstileWidget() {
-  const turnstile = useTurnstile();
+  // const turnstile = useTurnstile();
   return (
     <Turnstile
       refreshExpired="auto"

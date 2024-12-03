@@ -7,12 +7,8 @@ function TurnstileWidget() {
       refreshExpired="auto"
       sitekey="0x4AAAAAAA1XhNkamInJqZkJ"
       onVerify={(token) => {
-        fetch("/login", {
-          method: "POST",
-          body: JSON.stringify({ token }),
-        }).then((response) => {
-          if (!response.ok) turnstile.reset();
-        });
+        console.log(token);
+        return alert("hey");
       }}
     />
   );

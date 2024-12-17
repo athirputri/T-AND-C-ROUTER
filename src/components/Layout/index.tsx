@@ -17,6 +17,12 @@ export const Layout = () => {
         <Link to={"/product"} className={cn("p-2 bg-white rounded")}>
           Product
         </Link>
+        <Link to={"/profile"} className={cn("p-2 bg-white rounded")}>
+          Profile
+        </Link>
+        <Link to={"/homepage"} className={cn("p-2 bg-white rounded")}>
+          Homepage
+        </Link>
         <Link to={"/product/create"} className={cn("p-2 bg-white rounded")}>
           Create Product
         </Link>

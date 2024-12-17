@@ -5,6 +5,8 @@ import Product from "pages/Product";
 import { Layout } from "components/Layout";
 import ProductId from "pages/Product/Id/index";
 import CreateProduct from "pages/Product/Create";
+import Profile from "pages/Profile/index";
+import { Homepage } from "pages/Homepage/index";
 
 // Library
 import { Route, Routes } from "react-router-dom";
@@ -15,6 +17,8 @@ const Routing = () => {
       <Route index path="/" element={<Index />} />
       <Route element={<Layout />}>
         <Route index path="home" element={<Home />} />
+        <Route path="profile" element={<Profile />} />
+        <Route path="homepage" element={<Homepage />} />
         <Route path="product">
           <Route index element={<Product />} />
           <Route path=":id" element={<ProductId />} />

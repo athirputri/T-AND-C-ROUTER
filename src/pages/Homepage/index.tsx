@@ -1,14 +1,47 @@
-import { FunctionComponent, useCallback } from 'react';
+import { FunctionComponent, useCallback , useState , useEffect } from 'react';
 import styles from './HOMEPAGE.module.css';
+import { useNavigate } from 'react-router-dom';
+import Sidebar from 'components/SIDEBAR';
+
+
 
 
 const HOMEPAGE:FunctionComponent = () => {
+	const navigate = useNavigate();
+
+	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(prevState => !prevState); // Toggle sidebar open/close
+  };
+
+  // Function to close sidebar if clicked outside
+  const handleOutsideClick = (e: MouseEvent) => {
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar && !sidebar.contains(e.target as Node)) {
+      setIsSidebarOpen(false); // Close sidebar when clicked outside
+    }
+  };
+
+  // Add event listener to handle outside click
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.addEventListener('click', handleOutsideClick as EventListener);
+    }
+    return () => {
+      document.removeEventListener('click', handleOutsideClick as EventListener);
+    };
+  }, [isSidebarOpen]);
+	
   	
   	const onCRAFTTextClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
-  	
-  	
+		navigate('/craft'); // Mengarahkan ke /craft
+	}, [navigate]);
+	
+	const onFoodTextClick = useCallback(() => {
+	  navigate('/food'); // Mengarahkan ke /craft
+  }, [navigate]);
+
   	const onGoodQualityImageClick = useCallback(() => {
     		const anchor = document.querySelector("[data-scroll-to='rectangle1']");
     		if(anchor) {
@@ -26,10 +59,12 @@ const HOMEPAGE:FunctionComponent = () => {
   	
   	return (
     		<div className={styles.homepage}>
-      			<div className={styles.vectorParent}>
+      			<div className={styles.vectorParent} onClick={toggleSidebar}>
         				<img className={styles.groupChild} alt="" src="Ellipse 1.svg" />
         				<img className={styles.cuplikanLayar202412142308Icon} alt="" src="Cuplikan_layar_2024-12-14_230827-removebg-preview (1) 1.png" />
+
       			</div>
+						{isSidebarOpen && <Sidebar />} {/* Menampilkan sidebar jika isSidebarOpen true */}
       			<div className={styles.homepageChild} />
       			<div className={styles.homepageItem} data-scroll-to="rectangle" />
       			<div className={styles.homepageInner} data-scroll-to="rectangle1" />
@@ -39,10 +74,10 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.navbar}>
         				<div className={styles.navbarChild} />
         				<div className={styles.navbarItem} />
-        				<div className={styles.home}>HOME</div>
-        				<div className={styles.craft} onClick={onCRAFTTextClick}>CRAFT</div>
+        				<a className={styles.home} href="#">HOME</a>
+        				<a className={styles.craft} onClick={onCRAFTTextClick}>CRAFT</a>
         				<div className={styles.others}>OTHERS</div>
-        				<div className={styles.food} onClick={onCRAFTTextClick}>FOOD</div>
+        				<div className={styles.food} onClick={onFoodTextClick}>FOOD</div>
         				<div className={styles.div}>{`>`}</div>
       			</div>
       			<div className={styles.rectangleDiv} />

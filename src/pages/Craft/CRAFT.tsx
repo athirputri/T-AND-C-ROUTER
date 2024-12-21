@@ -1,13 +1,21 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from './CRAFT.module.css';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const CRAFT:FunctionComponent = () => {
+	const navigate = useNavigate();
+
   	
   	const onGroupContainerClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
+			navigate('/'); 
+  	}, [navigate]);
   	
+  	const onFoodTextClick = useCallback(() => {
+		navigate('/food'); // Mengarahkan ke /craft
+	}, [navigate]);
+
   	return (
     		<div className={styles.craft}>
       			<div className={styles.vectorParent} onClick={onGroupContainerClick}>
@@ -19,7 +27,7 @@ const CRAFT:FunctionComponent = () => {
         				<img className={styles.navbarItem} alt="" src="Rectangle 8.svg" />
         				<div className={styles.home} onClick={onGroupContainerClick}>HOME</div>
         				<div className={styles.craft1}>CRAFT</div>
-        				<div className={styles.food} onClick={onGroupContainerClick}>FOOD</div>
+        				<div className={styles.food} onClick={onFoodTextClick}>FOOD</div>
       			</div>
       			<div className={styles.footer}>
         				<div className={styles.footerChild} />

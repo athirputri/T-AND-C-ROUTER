@@ -1,0 +1,286 @@
+.profileChild {
+    position: absolute;
+    top: 37px;
+    left: 55px;
+    border-radius: 50%;
+    background-color: #ffedb4;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.backArrowIcon {
+    position: absolute;
+    top: 48px;
+    left: 66px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profileItem {
+    position: absolute;
+    top: 107px;
+    left: 352px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 803px;
+    height: 200px;
+}
+.catProfile1 {
+    position: absolute;
+    top: 107px;
+    left: 125px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.profileInner {
+    position: absolute;
+    top: 267px;
+    left: 259px;
+    border-radius: 50%;
+    background-color: #ffedb4;
+    width: 40px;
+    height: 40px;
+}
+.cameraIcon {
+    position: absolute;
+    top: 272px;
+    left: 264px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.jotarobarjo {
+    position: absolute;
+    top: 133px;
+    left: 394px;
+    font-size: 40px;
+}
+.xiTbsm {
+    position: absolute;
+    top: 184px;
+    left: 394px;
+    font-weight: 500;
+}
+.jotarobarjogmailcom {
+    position: absolute;
+    top: 217px;
+    left: 394px;
+    font-weight: 500;
+}
+.div {
+    position: absolute;
+    top: 250px;
+    left: 394px;
+    font-weight: 500;
+}
+.editIcon {
+    position: absolute;
+    top: 187px;
+    left: 1041px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 327px;
+    left: 125px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 1030px;
+    height: 456px;
+}
+.manageYourAccount {
+    position: absolute;
+    top: 357px;
+    left: 210px;
+    font-weight: 500;
+}
+.rewardsWallet {
+    position: absolute;
+    top: 418px;
+    left: 207px;
+    font-weight: 500;
+}
+.reviews {
+    position: absolute;
+    top: 479px;
+    left: 210px;
+    font-weight: 500;
+}
+.lineDiv {
+    position: absolute;
+    top: 402.5px;
+    left: 149.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 981px;
+    height: 1px;
+}
+.profileChild1 {
+    position: absolute;
+    top: 463.5px;
+    left: 150.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 981px;
+    height: 1px;
+}
+.profileChild2 {
+    position: absolute;
+    top: 524.5px;
+    left: 150.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 981px;
+    height: 1px;
+}
+.profileChild3 {
+    position: absolute;
+    top: 585.5px;
+    left: 150.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 981px;
+    height: 1px;
+}
+.profileChild4 {
+    position: absolute;
+    top: 646.5px;
+    left: 150.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 981px;
+    height: 1px;
+}
+.profileChild5 {
+    position: absolute;
+    top: 707.5px;
+    left: 150.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 981px;
+    height: 1px;
+}
+.questionsToProperties {
+    position: absolute;
+    top: 540px;
+    left: 210px;
+    font-weight: 500;
+}
+.customerService {
+    position: absolute;
+    top: 601px;
+    left: 210px;
+    font-weight: 500;
+}
+.safetyResourceCenter {
+    position: absolute;
+    top: 662px;
+    left: 210px;
+    font-weight: 500;
+}
+.settings {
+    position: absolute;
+    top: 723px;
+    left: 210px;
+    font-weight: 500;
+}
+.profileChild6 {
+    position: absolute;
+    top: 803px;
+    left: 125px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 1030px;
+    height: 60px;
+    cursor: pointer;
+}
+.signOut {
+    position: absolute;
+    top: 818px;
+    left: 207px;
+    font-weight: 500;
+    color: #eb3223;
+    cursor: pointer;
+}
+.thumbsUpDown {
+    position: absolute;
+    top: 474px;
+    left: 151px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.helpIcon {
+    position: absolute;
+    top: 535px;
+    left: 151px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.securityShieldIcon {
+    position: absolute;
+    top: 657px;
+    left: 150px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.settingsIcon {
+    position: absolute;
+    top: 718px;
+    left: 151px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.walletIcon {
+    position: absolute;
+    top: 413px;
+    left: 151px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.maleUserIcon {
+    position: absolute;
+    top: 352px;
+    left: 151px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.headsetIcon {
+    position: absolute;
+    top: 596px;
+    left: 150px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.logoutIcon {
+    position: absolute;
+    top: 813px;
+    left: 151px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profile {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 883px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 25px;
+    color: #000;
+    font-family: Inter;
+}
+

@@ -1,0 +1,306 @@
+.checkoutChild {
+    position: absolute;
+    top: 107px;
+    left: 178px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 160px;
+}
+.checkoutItem {
+    position: absolute;
+    top: 37px;
+    left: 55px;
+    border-radius: 50%;
+    background-color: #ffedb4;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.backArrowIcon {
+    position: absolute;
+    top: 48px;
+    left: 66px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.kelasDanJurusan {
+    position: absolute;
+    top: 119px;
+    left: 197px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.xiMplb {
+    position: absolute;
+    top: 154px;
+    left: 197px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.checkoutInner {
+    position: absolute;
+    top: 167px;
+    left: 984px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    border: 5px solid #f29d38;
+    box-sizing: border-box;
+    width: 101px;
+    height: 40px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 213px;
+    left: 197px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    border: 5px solid #f29d38;
+    box-sizing: border-box;
+    width: 205px;
+    height: 40px;
+}
+.checkoutChild1 {
+    position: absolute;
+    top: 213px;
+    left: 413px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    border: 5px solid #f29d38;
+    box-sizing: border-box;
+    width: 125px;
+    height: 40px;
+}
+.ganti {
+    position: absolute;
+    top: 175px;
+    left: 1009px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.maleUserIcon {
+    position: absolute;
+    top: 220px;
+    left: 208px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.inscriptionIcon {
+    position: absolute;
+    top: 220px;
+    left: 424px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.isiDetailPenerima {
+    position: absolute;
+    top: 222px;
+    left: 239px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.catatan {
+    position: absolute;
+    top: 222px;
+    left: 456px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.checkoutChild2 {
+    position: absolute;
+    top: 278px;
+    left: 178px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 210px;
+}
+.checkoutChild3 {
+    position: absolute;
+    top: 781px;
+    left: 0px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ffedb4;
+    width: 1280px;
+    height: 125px;
+}
+.checkoutChild4 {
+    position: absolute;
+    top: 546px;
+    left: 178px;
+    border-radius: 0px 20px 20px 20px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 191px;
+}
+.lineDiv {
+    position: absolute;
+    top: 277.5px;
+    left: 393.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 211px;
+}
+.pancake {
+    position: absolute;
+    top: 314px;
+    left: 417px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.div {
+    position: absolute;
+    top: 377px;
+    left: 1015px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.rp15000 {
+    position: absolute;
+    top: 377px;
+    left: 417px;
+    font-size: 35px;
+}
+.notePlease {
+    position: absolute;
+    top: 434px;
+    left: 417px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+.negativeIcon {
+    position: absolute;
+    top: 383px;
+    left: 963px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.sumIcon {
+    position: absolute;
+    top: 383px;
+    left: 1055px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.pancakeIcon {
+    position: absolute;
+    top: 308px;
+    left: 210px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.checkoutChild5 {
+    position: absolute;
+    top: 499px;
+    left: 178px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #ffedb4;
+    width: 355px;
+    height: 48px;
+}
+.ringkasanPembayaran {
+    position: absolute;
+    top: 508px;
+    left: 214px;
+    font-weight: 600;
+}
+.harga {
+    position: absolute;
+    top: 567px;
+    left: 214px;
+}
+.rp150001 {
+    position: absolute;
+    top: 567px;
+    left: 960px;
+}
+.rp150002 {
+    position: absolute;
+    top: 687px;
+    left: 960px;
+}
+.rp0 {
+    position: absolute;
+    top: 606px;
+    left: 1024px;
+}
+.potonganHarga {
+    position: absolute;
+    top: 608px;
+    left: 214px;
+}
+.checkoutChild6 {
+    position: absolute;
+    top: 666.5px;
+    left: 214.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 876px;
+    height: 1px;
+}
+.totalPembayaran {
+    position: absolute;
+    top: 687px;
+    left: 214px;
+}
+.gopay {
+    position: absolute;
+    top: 828px;
+    left: 125px;
+}
+.walletIcon {
+    position: absolute;
+    top: 813px;
+    left: 46px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.checkoutChild7 {
+    position: absolute;
+    top: 803px;
+    left: 993px;
+    border-radius: 50px;
+    background-color: #ff8a08;
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+}
+.orderNow {
+    position: absolute;
+    top: 822px;
+    left: 1025px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffedb4;
+    cursor: pointer;
+}
+.ellipsisIcon {
+    position: absolute;
+    top: 823px;
+    left: 915px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.checkout {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 906px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 25px;
+    color: #000;
+    font-family: Inter;
+}
+

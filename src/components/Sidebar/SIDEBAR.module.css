@@ -1,0 +1,163 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+}
+.cuplikanLayar202412142308Icon {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 85px;
+    height: 86px;
+    object-fit: cover;
+}
+.vectorParent {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 130px;
+    height: 130px;
+}
+.sidebarChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffedb4;
+    width: 563px;
+    height: 832px;
+}
+.tasteAndCraft {
+    position: absolute;
+    top: 73px;
+    left: 173px;
+    font-size: 36px;
+    font-weight: 900;
+}
+.vectorGroup {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+.profile {
+    position: absolute;
+    top: 294px;
+    left: 147px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home {
+    position: absolute;
+    top: 210px;
+    left: 148px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.notifications {
+    position: absolute;
+    top: 378px;
+    left: 148px;
+    font-weight: 600;
+}
+.messeges {
+    position: absolute;
+    top: 462px;
+    left: 151px;
+    font-weight: 600;
+}
+.orderHistory {
+    position: absolute;
+    top: 549px;
+    left: 151px;
+    font-weight: 600;
+}
+.cart {
+    position: absolute;
+    top: 635px;
+    left: 151px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.customerService {
+    position: absolute;
+    top: 718px;
+    left: 151px;
+    font-weight: 600;
+}
+.alarmIcon {
+    position: absolute;
+    top: 378px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.shoppingCartIcon {
+    position: absolute;
+    top: 633px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.timeMachineIcon {
+    position: absolute;
+    top: 548px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.homePageIcon {
+    position: absolute;
+    top: 210px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.unreadMessagesIcon {
+    position: absolute;
+    top: 463px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.testAccountIcon {
+    position: absolute;
+    top: 293px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.headsetIcon {
+    position: absolute;
+    top: 718px;
+    left: 73px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.sidebar {
+    width: 550px;
+    position: fixed;
+    background-color: #ffedb4;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+    font-size: 32px;
+    color: #000;
+    font-family: Inter;
+    z-index: 1000;
+}
+

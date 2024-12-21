@@ -1,12 +1,20 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from './FOOD.module.css';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const FOOD:FunctionComponent = () => {
+	const navigate = useNavigate();
+
   	
   	const onGroupContainerClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
+		navigate('/');
+	}, [navigate]);
+	
+	const onCRAFTTextClick = useCallback(() => {
+		navigate('/craft'); // Mengarahkan ke /craft
+	  }, [navigate]);
   	
   	
   	const onBestSellerImageClick = useCallback(() => {
@@ -78,7 +86,7 @@ const FOOD:FunctionComponent = () => {
         				<div className={styles.navbarChild} />
         				<div className={styles.navbarItem} />
         				<div className={styles.home} onClick={onGroupContainerClick}>HOME</div>
-        				<div className={styles.craft} onClick={onGroupContainerClick}>CRAFT</div>
+        				<div className={styles.craft} onClick={onCRAFTTextClick}>CRAFT</div>
         				<div className={styles.food1}>FOOD</div>
       			</div>
       			<div className={styles.foodChild3} />

@@ -7,7 +7,7 @@ import ProductId from "pages/Product/Id/index";
 import CreateProduct from "pages/Product/Create";
 import Profile from "pages/Profile/index";
 import HOMEPAGE from "pages/Homepage";
-import FOOD from "pages/Food/Food";
+import FOOD from "pages/Food/FOOD";
 
 
 // Library

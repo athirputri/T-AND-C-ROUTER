@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+}
+.cuplikanLayar202412142308Icon {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 85px;
+    height: 86px;
+    object-fit: cover;
+}
+.vectorParent {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+.navbarChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    width: 1045px;
+    height: 61px;
+}
+.navbarItem {
+    position: absolute;
+    top: 46px;
+    left: 328px;
+    border-radius: 30px;
+    width: 105px;
+    height: 5px;
+}
+.home {
+    position: absolute;
+    top: 13px;
+    left: 41px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.craft1 {
+    position: absolute;
+    top: 13px;
+    left: 328px;
+    font-weight: 900;
+}
+.food {
+    position: absolute;
+    top: 13px;
+    left: 187px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar {
+    position: absolute;
+    top: 64px;
+    left: 188px;
+    width: 1045px;
+    height: 61px;
+}
+.footerChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffedb4;
+    width: 1280px;
+    height: 621px;
+}
+.bantuan {
+    position: absolute;
+    top: 129.95px;
+    left: 80px;
+    display: inline-block;
+    width: 98px;
+    height: 34.5px;
+}
+.tentangKami {
+    position: absolute;
+    top: 129.95px;
+    left: 481px;
+    display: inline-block;
+    width: 162px;
+    height: 34.5px;
+}
+.metodePembayaran {
+    position: absolute;
+    top: 172.5px;
+    left: 81px;
+    display: inline-block;
+    width: 245px;
+    height: 34.5px;
+}
+.karir {
+    position: absolute;
+    top: 172.5px;
+    left: 482px;
+    display: inline-block;
+    width: 55px;
+    height: 34.5px;
+}
+.lacakPemesananPembeli {
+    position: absolute;
+    top: 215.05px;
+    left: 82px;
+    display: inline-block;
+    width: 315px;
+    height: 34.5px;
+}
+.kebijakanTaste {
+    position: absolute;
+    top: 215.05px;
+    left: 483px;
+    display: inline-block;
+    width: 276px;
+    height: 34.5px;
+}
+.lacakPengirimanPenjual {
+    position: absolute;
+    top: 257.6px;
+    left: 83px;
+    display: inline-block;
+    width: 301px;
+    height: 34.5px;
+}
+.kebijakanPrivasi {
+    position: absolute;
+    top: 257.6px;
+    left: 484px;
+    display: inline-block;
+    width: 199px;
+    height: 34.5px;
+}
+.garansiTaste {
+    position: absolute;
+    top: 300.15px;
+    left: 84px;
+    display: inline-block;
+    width: 252px;
+    height: 34.5px;
+}
+.sellerCenter {
+    position: absolute;
+    top: 300.15px;
+    left: 485px;
+    display: inline-block;
+    width: 154px;
+    height: 34.5px;
+}
+.hubungiKami {
+    position: absolute;
+    top: 342.7px;
+    left: 85px;
+    display: inline-block;
+    width: 164px;
+    height: 34.5px;
+}
+.kontakMedia {
+    position: absolute;
+    top: 342.7px;
+    left: 486px;
+    display: inline-block;
+    width: 161px;
+    height: 34.5px;
+}
+.layanan {
+    position: absolute;
+    top: 62.1px;
+    left: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 122px;
+    height: 41.4px;
+}
+.jelajahiTaste {
+    position: absolute;
+    top: 62.1px;
+    left: 481px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 308px;
+    height: 41.4px;
+}
+.pembayaran {
+    position: absolute;
+    top: 62.1px;
+    left: 873px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 181px;
+    height: 41.4px;
+}
+.image1Icon {
+    position: absolute;
+    top: 139.15px;
+    left: 873px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587raskM3elfkyp7rvyIcon {
+    position: absolute;
+    top: 139.15px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.image2Icon {
+    position: absolute;
+    top: 215.05px;
+    left: 873px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.image3Icon {
+    position: absolute;
+    top: 290.95px;
+    left: 877px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587rasgM3elgbu7vvkgIcon {
+    position: absolute;
+    top: 290.95px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587raskM3elfv3kdsb4Icon {
+    position: absolute;
+    top: 373.75px;
+    left: 877px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587rascM3elg0155yq7Icon {
+    position: absolute;
+    top: 373.75px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587rasiM3elg6a60mmoIcon {
+    position: absolute;
+    top: 215.05px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.youtubeIcon {
+    position: absolute;
+    top: 0px;
+    left: 335.63px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.instagramIcon {
+    position: absolute;
+    top: 0px;
+    left: 83.91px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.facebookIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.twitterIcon {
+    position: absolute;
+    top: 0px;
+    left: 167.81px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.tiktokIcon {
+    position: absolute;
+    top: 0px;
+    left: 251.72px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.socialMedia {
+    position: absolute;
+    top: 488.75px;
+    left: 467px;
+    width: 387px;
+    height: 59.1px;
+}
+.footer {
+    position: absolute;
+    top: 833px;
+    left: 0px;
+    width: 1280px;
+    height: 621px;
+    font-size: 25px;
+}
+.craftChild {
+    position: absolute;
+    top: 73px;
+    left: 862px;
+    border-radius: 30px;
+    background-color: #ffedb4;
+    width: 362px;
+    height: 45px;
+}
+.search {
+    position: absolute;
+    top: 80px;
+    left: 882px;
+    font-size: 25px;
+    opacity: 0.4;
+}
+.searchIcon {
+    position: absolute;
+    top: 80px;
+    left: 1179px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.stayTune {
+    position: absolute;
+    top: 368px;
+    left: 422px;
+    font-size: 75px;
+    color: #fff;
+}
+.weAreStill {
+    position: absolute;
+    top: 491px;
+    left: 206px;
+    font-size: 35px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 873px;
+}
+.cart {
+    position: absolute;
+    top: 0px;
+    left: 39px;
+    font-weight: 600;
+}
+.shoppingCartIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.cartParent {
+    position: absolute;
+    top: 77px;
+    left: 680px;
+    width: 123px;
+    height: 36px;
+    cursor: pointer;
+}
+.craft {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 1454px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: #000;
+    font-family: Inter;
+}

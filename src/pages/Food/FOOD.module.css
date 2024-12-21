@@ -1,0 +1,3448 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+}
+.cuplikanLayar202412142308Icon {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    width: 85px;
+    height: 86px;
+    object-fit: cover;
+}
+.vectorParent {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+.foodChild {
+    position: absolute;
+    top: 891px;
+    left: 97px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 420px;
+    height: 60px;
+}
+.foodItem {
+    position: absolute;
+    top: 1322px;
+    left: 97px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 300px;
+    height: 60px;
+}
+.foodInner {
+    position: absolute;
+    top: 2056px;
+    left: 97px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 253px;
+    height: 60px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 2790px;
+    left: 97px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 215px;
+    height: 60px;
+}
+.foodChild1 {
+    position: absolute;
+    top: 3524px;
+    left: 97px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 200px;
+    height: 60px;
+}
+.foodChild2 {
+    position: absolute;
+    top: 4258px;
+    left: 97px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 205px;
+    height: 60px;
+}
+.top5Best {
+    position: absolute;
+    top: 901px;
+    left: 177px;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 313px;
+}
+.spicyFood {
+    position: absolute;
+    top: 1332px;
+    left: 177px;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 195px;
+}
+.dessert {
+    position: absolute;
+    top: 2066px;
+    left: 177px;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 145px;
+}
+.salad {
+    position: absolute;
+    top: 2800px;
+    left: 177px;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 108px;
+}
+.soup {
+    position: absolute;
+    top: 3534px;
+    left: 177px;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 108px;
+}
+.drink {
+    position: absolute;
+    top: 4268px;
+    left: 177px;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    width: 108px;
+}
+.navbarChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #ffc100;
+    width: 1045px;
+    height: 61px;
+}
+.navbarItem {
+    position: absolute;
+    top: 46px;
+    left: 177px;
+    border-radius: 30px;
+    background-color: #ffedb4;
+    width: 105px;
+    height: 5px;
+}
+.home {
+    position: absolute;
+    top: 13px;
+    left: 41px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.craft {
+    position: absolute;
+    top: 13px;
+    left: 328px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.food1 {
+    position: absolute;
+    top: 13px;
+    left: 187px;
+    font-weight: 900;
+}
+.navbar {
+    position: absolute;
+    top: 64px;
+    left: 188px;
+    width: 1045px;
+    height: 61px;
+    font-size: 30px;
+}
+.foodChild3 {
+    position: absolute;
+    top: 1128px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild4 {
+    position: absolute;
+    top: 1563px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild5 {
+    position: absolute;
+    top: 2297px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild6 {
+    position: absolute;
+    top: 3031px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild7 {
+    position: absolute;
+    top: 3765px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild8 {
+    position: absolute;
+    top: 4499px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild9 {
+    position: absolute;
+    top: 1862px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild10 {
+    position: absolute;
+    top: 2596px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild11 {
+    position: absolute;
+    top: 3330px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild12 {
+    position: absolute;
+    top: 4064px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild13 {
+    position: absolute;
+    top: 4798px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild14 {
+    position: absolute;
+    top: 1128px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild15 {
+    position: absolute;
+    top: 1563px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild16 {
+    position: absolute;
+    top: 2297px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild17 {
+    position: absolute;
+    top: 3031px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild18 {
+    position: absolute;
+    top: 3765px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild19 {
+    position: absolute;
+    top: 4499px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild20 {
+    position: absolute;
+    top: 1862px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+    cursor: pointer;
+}
+.foodChild21 {
+    position: absolute;
+    top: 2596px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild22 {
+    position: absolute;
+    top: 3330px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild23 {
+    position: absolute;
+    top: 4064px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+    cursor: pointer;
+}
+.foodChild24 {
+    position: absolute;
+    top: 4798px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild25 {
+    position: absolute;
+    top: 1128px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild26 {
+    position: absolute;
+    top: 1563px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild27 {
+    position: absolute;
+    top: 2297px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild28 {
+    position: absolute;
+    top: 3031px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild29 {
+    position: absolute;
+    top: 3765px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild30 {
+    position: absolute;
+    top: 4499px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild31 {
+    position: absolute;
+    top: 1862px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild32 {
+    position: absolute;
+    top: 2596px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild33 {
+    position: absolute;
+    top: 3330px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild34 {
+    position: absolute;
+    top: 4064px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild35 {
+    position: absolute;
+    top: 4798px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild36 {
+    position: absolute;
+    top: 1128px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.tanghulu {
+    position: absolute;
+    top: 1186px;
+    left: 549px;
+}
+.foodChild37 {
+    position: absolute;
+    top: 1563px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild38 {
+    position: absolute;
+    top: 2297px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild39 {
+    position: absolute;
+    top: 3031px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild40 {
+    position: absolute;
+    top: 3765px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild41 {
+    position: absolute;
+    top: 4499px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild42 {
+    position: absolute;
+    top: 1862px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild43 {
+    position: absolute;
+    top: 2596px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild44 {
+    position: absolute;
+    top: 3330px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild45 {
+    position: absolute;
+    top: 4064px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild46 {
+    position: absolute;
+    top: 4798px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild47 {
+    position: absolute;
+    top: 1128px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild48 {
+    position: absolute;
+    top: 1563px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild49 {
+    position: absolute;
+    top: 2297px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild50 {
+    position: absolute;
+    top: 3031px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild51 {
+    position: absolute;
+    top: 3765px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild52 {
+    position: absolute;
+    top: 4499px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild53 {
+    position: absolute;
+    top: 1862px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild54 {
+    position: absolute;
+    top: 2596px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild55 {
+    position: absolute;
+    top: 3330px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild56 {
+    position: absolute;
+    top: 4064px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.foodChild57 {
+    position: absolute;
+    top: 4798px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.wontonIcon {
+    position: absolute;
+    top: 976px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.wontonIcon1 {
+    position: absolute;
+    top: 1710px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.wontonIcon2 {
+    position: absolute;
+    top: 3912px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.pancakeIcon {
+    position: absolute;
+    top: 976px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.pancakeIcon1 {
+    position: absolute;
+    top: 2444px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.pancakeIcon2 {
+    position: absolute;
+    top: 3912px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.tanghuluIcon {
+    position: absolute;
+    top: 976px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.tanghuluIcon1 {
+    position: absolute;
+    top: 2444px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.tanghuluIcon2 {
+    position: absolute;
+    top: 3912px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.wonton {
+    position: absolute;
+    top: 1185px;
+    left: 113px;
+    cursor: pointer;
+}
+.corndog {
+    position: absolute;
+    top: 1620px;
+    left: 113px;
+}
+.millesCrepes {
+    position: absolute;
+    top: 2354px;
+    left: 113px;
+}
+.mangoSmooth {
+    position: absolute;
+    top: 3088px;
+    left: 113px;
+}
+.millesCrepes1 {
+    position: absolute;
+    top: 3822px;
+    left: 113px;
+}
+.chocoOat {
+    position: absolute;
+    top: 4556px;
+    left: 113px;
+}
+.wonton1 {
+    position: absolute;
+    top: 1919px;
+    left: 113px;
+    cursor: pointer;
+}
+.classicScones {
+    position: absolute;
+    top: 2653px;
+    left: 113px;
+}
+.dragonFruit {
+    position: absolute;
+    top: 3387px;
+    left: 113px;
+}
+.spicyWonton {
+    position: absolute;
+    top: 4121px;
+    left: 113px;
+}
+.spanishLatte {
+    position: absolute;
+    top: 4855px;
+    left: 113px;
+}
+.pancake {
+    position: absolute;
+    top: 1186px;
+    left: 329px;
+    cursor: pointer;
+}
+.dimsumMentai {
+    position: absolute;
+    top: 1621px;
+    left: 329px;
+}
+.tiramisu {
+    position: absolute;
+    top: 2355px;
+    left: 329px;
+}
+.fruitSalad {
+    position: absolute;
+    top: 3089px;
+    left: 329px;
+}
+.tiramisu1 {
+    position: absolute;
+    top: 3823px;
+    left: 329px;
+}
+.cappucino {
+    position: absolute;
+    top: 4557px;
+    left: 329px;
+}
+.lasagna {
+    position: absolute;
+    top: 1920px;
+    left: 329px;
+}
+.pancake1 {
+    position: absolute;
+    top: 2654px;
+    left: 329px;
+}
+.ranchChicken {
+    position: absolute;
+    top: 3388px;
+    left: 329px;
+}
+.sweetPancake {
+    position: absolute;
+    top: 4122px;
+    left: 329px;
+}
+.americano {
+    position: absolute;
+    top: 4856px;
+    left: 329px;
+}
+.risoles {
+    position: absolute;
+    top: 1621px;
+    left: 549px;
+}
+.dango {
+    position: absolute;
+    top: 2355px;
+    left: 549px;
+}
+.salmonAvo {
+    position: absolute;
+    top: 3089px;
+    left: 549px;
+}
+.dango1 {
+    position: absolute;
+    top: 3823px;
+    left: 549px;
+}
+.matchaLatte {
+    position: absolute;
+    top: 4557px;
+    left: 549px;
+}
+.tanghulu1 {
+    position: absolute;
+    top: 1920px;
+    left: 549px;
+}
+.tanghulu2 {
+    position: absolute;
+    top: 2654px;
+    left: 549px;
+}
+.citrusFennel {
+    position: absolute;
+    top: 3388px;
+    left: 549px;
+}
+.tanghulu3 {
+    position: absolute;
+    top: 4122px;
+    left: 549px;
+}
+.caffeMocha {
+    position: absolute;
+    top: 4856px;
+    left: 549px;
+}
+.chocoMochi {
+    position: absolute;
+    top: 1186px;
+    left: 769px;
+}
+.mieGacoan {
+    position: absolute;
+    top: 1621px;
+    left: 769px;
+}
+.cookies {
+    position: absolute;
+    top: 2355px;
+    left: 769px;
+}
+.cucumber {
+    position: absolute;
+    top: 3089px;
+    left: 769px;
+}
+.cookies1 {
+    position: absolute;
+    top: 3823px;
+    left: 769px;
+}
+.kopiSusuAren {
+    position: absolute;
+    top: 4557px;
+    left: 769px;
+}
+.tteobokki {
+    position: absolute;
+    top: 1920px;
+    left: 769px;
+}
+.chocoMochi1 {
+    position: absolute;
+    top: 2654px;
+    left: 769px;
+}
+.mixFruitSalad {
+    position: absolute;
+    top: 3388px;
+    left: 769px;
+}
+.chocoMochi2 {
+    position: absolute;
+    top: 4122px;
+    left: 769px;
+}
+.breveLatte {
+    position: absolute;
+    top: 4856px;
+    left: 769px;
+}
+.kimbab {
+    position: absolute;
+    top: 1186px;
+    left: 989px;
+}
+.kimbab1 {
+    position: absolute;
+    top: 1621px;
+    left: 989px;
+}
+.cromboloni {
+    position: absolute;
+    top: 2355px;
+    left: 989px;
+}
+.classicScones1 {
+    position: absolute;
+    top: 2444px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.shrimpSalad {
+    position: absolute;
+    top: 3089px;
+    left: 989px;
+}
+.kimbab2 {
+    position: absolute;
+    top: 3823px;
+    left: 989px;
+}
+.arenLatte {
+    position: absolute;
+    top: 4557px;
+    left: 989px;
+}
+.dimsum {
+    position: absolute;
+    top: 1920px;
+    left: 989px;
+}
+.milkbun {
+    position: absolute;
+    top: 2654px;
+    left: 989px;
+}
+.chocoSmooth {
+    position: absolute;
+    top: 3388px;
+    left: 989px;
+}
+.kimbab3 {
+    position: absolute;
+    top: 4122px;
+    left: 989px;
+}
+.caffeLatte {
+    position: absolute;
+    top: 4856px;
+    left: 989px;
+}
+.rp15000 {
+    position: absolute;
+    top: 1209px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rp10000 {
+    position: absolute;
+    top: 1644px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100001 {
+    position: absolute;
+    top: 2378px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100002 {
+    position: absolute;
+    top: 3112px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100003 {
+    position: absolute;
+    top: 3846px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100004 {
+    position: absolute;
+    top: 4580px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150001 {
+    position: absolute;
+    top: 1943px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rp150002 {
+    position: absolute;
+    top: 2677px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150003 {
+    position: absolute;
+    top: 3411px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150004 {
+    position: absolute;
+    top: 4145px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150005 {
+    position: absolute;
+    top: 4879px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150006 {
+    position: absolute;
+    top: 1210px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rp100005 {
+    position: absolute;
+    top: 1645px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100006 {
+    position: absolute;
+    top: 2379px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100007 {
+    position: absolute;
+    top: 3113px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100008 {
+    position: absolute;
+    top: 3847px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp100009 {
+    position: absolute;
+    top: 4581px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150007 {
+    position: absolute;
+    top: 1944px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rp150008 {
+    position: absolute;
+    top: 2678px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150009 {
+    position: absolute;
+    top: 3412px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1500010 {
+    position: absolute;
+    top: 4146px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rp1500011 {
+    position: absolute;
+    top: 4880px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp7000 {
+    position: absolute;
+    top: 1210px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70001 {
+    position: absolute;
+    top: 1645px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70002 {
+    position: absolute;
+    top: 2379px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70003 {
+    position: absolute;
+    top: 3113px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70004 {
+    position: absolute;
+    top: 3847px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70005 {
+    position: absolute;
+    top: 4581px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70006 {
+    position: absolute;
+    top: 1944px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70007 {
+    position: absolute;
+    top: 2678px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70008 {
+    position: absolute;
+    top: 3412px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70009 {
+    position: absolute;
+    top: 4146px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp700010 {
+    position: absolute;
+    top: 4880px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000010 {
+    position: absolute;
+    top: 1210px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000011 {
+    position: absolute;
+    top: 1645px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000012 {
+    position: absolute;
+    top: 2379px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000013 {
+    position: absolute;
+    top: 3113px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000014 {
+    position: absolute;
+    top: 3847px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000015 {
+    position: absolute;
+    top: 4581px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000016 {
+    position: absolute;
+    top: 1944px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000017 {
+    position: absolute;
+    top: 2678px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000018 {
+    position: absolute;
+    top: 3412px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000019 {
+    position: absolute;
+    top: 4146px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000020 {
+    position: absolute;
+    top: 4880px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000021 {
+    position: absolute;
+    top: 1210px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000022 {
+    position: absolute;
+    top: 1645px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000023 {
+    position: absolute;
+    top: 2379px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000024 {
+    position: absolute;
+    top: 3113px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000025 {
+    position: absolute;
+    top: 3847px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000026 {
+    position: absolute;
+    top: 4581px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000027 {
+    position: absolute;
+    top: 1944px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000028 {
+    position: absolute;
+    top: 2678px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000029 {
+    position: absolute;
+    top: 3412px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000030 {
+    position: absolute;
+    top: 4146px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000031 {
+    position: absolute;
+    top: 4880px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.div {
+    position: absolute;
+    top: 1212px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div1 {
+    position: absolute;
+    top: 1647px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div2 {
+    position: absolute;
+    top: 2381px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div3 {
+    position: absolute;
+    top: 3115px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div4 {
+    position: absolute;
+    top: 3849px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div5 {
+    position: absolute;
+    top: 4583px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div6 {
+    position: absolute;
+    top: 1946px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div7 {
+    position: absolute;
+    top: 2680px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div8 {
+    position: absolute;
+    top: 3414px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div9 {
+    position: absolute;
+    top: 4148px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div10 {
+    position: absolute;
+    top: 4882px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div11 {
+    position: absolute;
+    top: 1213px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div12 {
+    position: absolute;
+    top: 1648px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div13 {
+    position: absolute;
+    top: 2382px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div14 {
+    position: absolute;
+    top: 3116px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div15 {
+    position: absolute;
+    top: 3850px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div16 {
+    position: absolute;
+    top: 4584px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div17 {
+    position: absolute;
+    top: 1947px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div18 {
+    position: absolute;
+    top: 2681px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div19 {
+    position: absolute;
+    top: 3415px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div20 {
+    position: absolute;
+    top: 4149px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div21 {
+    position: absolute;
+    top: 4883px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div22 {
+    position: absolute;
+    top: 1213px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div23 {
+    position: absolute;
+    top: 1648px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div24 {
+    position: absolute;
+    top: 2382px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div25 {
+    position: absolute;
+    top: 3116px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div26 {
+    position: absolute;
+    top: 3850px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div27 {
+    position: absolute;
+    top: 4584px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div28 {
+    position: absolute;
+    top: 1947px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div29 {
+    position: absolute;
+    top: 2681px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div30 {
+    position: absolute;
+    top: 3415px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div31 {
+    position: absolute;
+    top: 4149px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div32 {
+    position: absolute;
+    top: 4883px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div33 {
+    position: absolute;
+    top: 1213px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div34 {
+    position: absolute;
+    top: 1648px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div35 {
+    position: absolute;
+    top: 2382px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div36 {
+    position: absolute;
+    top: 3116px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div37 {
+    position: absolute;
+    top: 3850px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div38 {
+    position: absolute;
+    top: 4584px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div39 {
+    position: absolute;
+    top: 1947px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div40 {
+    position: absolute;
+    top: 2681px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div41 {
+    position: absolute;
+    top: 3415px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div42 {
+    position: absolute;
+    top: 4149px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div43 {
+    position: absolute;
+    top: 4883px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div44 {
+    position: absolute;
+    top: 1213px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div45 {
+    position: absolute;
+    top: 1648px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div46 {
+    position: absolute;
+    top: 2382px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div47 {
+    position: absolute;
+    top: 3116px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div48 {
+    position: absolute;
+    top: 3850px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div49 {
+    position: absolute;
+    top: 4584px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div50 {
+    position: absolute;
+    top: 1947px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div51 {
+    position: absolute;
+    top: 2681px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div52 {
+    position: absolute;
+    top: 3415px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div53 {
+    position: absolute;
+    top: 4149px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div54 {
+    position: absolute;
+    top: 4883px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.kimbabIcon {
+    position: absolute;
+    top: 976px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.kimbabIcon1 {
+    position: absolute;
+    top: 1411px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.kimbabIcon2 {
+    position: absolute;
+    top: 3613px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.kimbabIcon3 {
+    position: absolute;
+    top: 3912px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.chocoTruffleMochi {
+    position: absolute;
+    top: 976px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.chocoTruffleMochi1 {
+    position: absolute;
+    top: 2444px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.chocoTruffleMochi2 {
+    position: absolute;
+    top: 3912px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.bestSellerIcon {
+    position: absolute;
+    top: 896px;
+    left: 110px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.starIcon {
+    position: absolute;
+    top: 1212px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon1 {
+    position: absolute;
+    top: 1647px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon2 {
+    position: absolute;
+    top: 2381px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon3 {
+    position: absolute;
+    top: 3115px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon4 {
+    position: absolute;
+    top: 3849px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon5 {
+    position: absolute;
+    top: 4583px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon6 {
+    position: absolute;
+    top: 1946px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon7 {
+    position: absolute;
+    top: 2680px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon8 {
+    position: absolute;
+    top: 3414px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon9 {
+    position: absolute;
+    top: 4148px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon10 {
+    position: absolute;
+    top: 4882px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon11 {
+    position: absolute;
+    top: 1213px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon12 {
+    position: absolute;
+    top: 1648px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon13 {
+    position: absolute;
+    top: 2382px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon14 {
+    position: absolute;
+    top: 3116px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon15 {
+    position: absolute;
+    top: 3850px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon16 {
+    position: absolute;
+    top: 4584px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon17 {
+    position: absolute;
+    top: 1947px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon18 {
+    position: absolute;
+    top: 2681px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon19 {
+    position: absolute;
+    top: 3415px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon20 {
+    position: absolute;
+    top: 4149px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon21 {
+    position: absolute;
+    top: 4883px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon22 {
+    position: absolute;
+    top: 1213px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon23 {
+    position: absolute;
+    top: 1648px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon24 {
+    position: absolute;
+    top: 2382px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon25 {
+    position: absolute;
+    top: 3116px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon26 {
+    position: absolute;
+    top: 3850px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon27 {
+    position: absolute;
+    top: 4584px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon28 {
+    position: absolute;
+    top: 1947px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon29 {
+    position: absolute;
+    top: 2681px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon30 {
+    position: absolute;
+    top: 3415px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon31 {
+    position: absolute;
+    top: 4149px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon32 {
+    position: absolute;
+    top: 4883px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon33 {
+    position: absolute;
+    top: 1213px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon34 {
+    position: absolute;
+    top: 1648px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon35 {
+    position: absolute;
+    top: 2382px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon36 {
+    position: absolute;
+    top: 3116px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon37 {
+    position: absolute;
+    top: 3850px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon38 {
+    position: absolute;
+    top: 4584px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon39 {
+    position: absolute;
+    top: 1947px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon40 {
+    position: absolute;
+    top: 2681px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon41 {
+    position: absolute;
+    top: 3415px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon42 {
+    position: absolute;
+    top: 4149px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon43 {
+    position: absolute;
+    top: 4883px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon44 {
+    position: absolute;
+    top: 1213px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon45 {
+    position: absolute;
+    top: 1648px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon46 {
+    position: absolute;
+    top: 2382px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon47 {
+    position: absolute;
+    top: 3116px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon48 {
+    position: absolute;
+    top: 3850px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon49 {
+    position: absolute;
+    top: 4584px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon50 {
+    position: absolute;
+    top: 1947px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon51 {
+    position: absolute;
+    top: 2681px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon52 {
+    position: absolute;
+    top: 3415px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon53 {
+    position: absolute;
+    top: 4149px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon54 {
+    position: absolute;
+    top: 4883px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.footerChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffedb4;
+    width: 1280px;
+    height: 621px;
+}
+.bantuan {
+    position: absolute;
+    top: 129.95px;
+    left: 80px;
+    display: inline-block;
+    width: 98px;
+    height: 34.5px;
+}
+.tentangKami {
+    position: absolute;
+    top: 129.95px;
+    left: 481px;
+    display: inline-block;
+    width: 162px;
+    height: 34.5px;
+}
+.metodePembayaran {
+    position: absolute;
+    top: 172.5px;
+    left: 81px;
+    display: inline-block;
+    width: 245px;
+    height: 34.5px;
+}
+.karir {
+    position: absolute;
+    top: 172.5px;
+    left: 482px;
+    display: inline-block;
+    width: 55px;
+    height: 34.5px;
+}
+.lacakPemesananPembeli {
+    position: absolute;
+    top: 215.05px;
+    left: 82px;
+    display: inline-block;
+    width: 315px;
+    height: 34.5px;
+}
+.kebijakanTaste {
+    position: absolute;
+    top: 215.05px;
+    left: 483px;
+    display: inline-block;
+    width: 276px;
+    height: 34.5px;
+}
+.lacakPengirimanPenjual {
+    position: absolute;
+    top: 257.6px;
+    left: 83px;
+    display: inline-block;
+    width: 301px;
+    height: 34.5px;
+}
+.kebijakanPrivasi {
+    position: absolute;
+    top: 257.6px;
+    left: 484px;
+    display: inline-block;
+    width: 199px;
+    height: 34.5px;
+}
+.garansiTaste {
+    position: absolute;
+    top: 300.15px;
+    left: 84px;
+    display: inline-block;
+    width: 252px;
+    height: 34.5px;
+}
+.sellerCenter {
+    position: absolute;
+    top: 300.15px;
+    left: 485px;
+    display: inline-block;
+    width: 154px;
+    height: 34.5px;
+}
+.hubungiKami {
+    position: absolute;
+    top: 342.7px;
+    left: 85px;
+    display: inline-block;
+    width: 164px;
+    height: 34.5px;
+}
+.kontakMedia {
+    position: absolute;
+    top: 342.7px;
+    left: 486px;
+    display: inline-block;
+    width: 161px;
+    height: 34.5px;
+}
+.layanan {
+    position: absolute;
+    top: 62.1px;
+    left: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 122px;
+    height: 41.4px;
+}
+.jelajahiTaste {
+    position: absolute;
+    top: 62.1px;
+    left: 481px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 308px;
+    height: 41.4px;
+}
+.pembayaran {
+    position: absolute;
+    top: 62.1px;
+    left: 873px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    width: 181px;
+    height: 41.4px;
+}
+.image1Icon {
+    position: absolute;
+    top: 139.15px;
+    left: 873px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587raskM3elfkyp7rvyIcon {
+    position: absolute;
+    top: 139.15px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.image2Icon {
+    position: absolute;
+    top: 215.05px;
+    left: 873px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.image3Icon {
+    position: absolute;
+    top: 290.95px;
+    left: 877px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587rasgM3elgbu7vvkgIcon {
+    position: absolute;
+    top: 290.95px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587raskM3elfv3kdsb4Icon {
+    position: absolute;
+    top: 373.75px;
+    left: 877px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587rascM3elg0155yq7Icon {
+    position: absolute;
+    top: 373.75px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.id111342587rasiM3elg6a60mmoIcon {
+    position: absolute;
+    top: 215.05px;
+    left: 1010px;
+    border-radius: 10px;
+    width: 104px;
+    height: 50.6px;
+    object-fit: cover;
+}
+.youtubeIcon {
+    position: absolute;
+    top: 0px;
+    left: 335.63px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.instagramIcon {
+    position: absolute;
+    top: 0px;
+    left: 83.91px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.facebookIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.twitterIcon {
+    position: absolute;
+    top: 0px;
+    left: 167.81px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.tiktokIcon {
+    position: absolute;
+    top: 0px;
+    left: 251.72px;
+    width: 51.4px;
+    height: 59.1px;
+    object-fit: cover;
+}
+.socialMedia {
+    position: absolute;
+    top: 488.75px;
+    left: 467px;
+    width: 387px;
+    height: 59.1px;
+}
+.footer {
+    position: absolute;
+    top: 5137px;
+    left: 0px;
+    width: 1280px;
+    height: 621px;
+    font-size: 25px;
+}
+.foodChild58 {
+    position: absolute;
+    top: 73px;
+    left: 862px;
+    border-radius: 30px;
+    background-color: #ffedb4;
+    width: 362px;
+    height: 45px;
+}
+.search {
+    position: absolute;
+    top: 80px;
+    left: 882px;
+    font-size: 25px;
+    opacity: 0.4;
+}
+.cookiesIcon {
+    position: absolute;
+    top: 2145px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.cookiesIcon1 {
+    position: absolute;
+    top: 3613px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.dangoIcon {
+    position: absolute;
+    top: 2145px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.dangoIcon1 {
+    position: absolute;
+    top: 3613px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.cakeIcon {
+    position: absolute;
+    top: 2145px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.cakeIcon1 {
+    position: absolute;
+    top: 3613px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.milleCrepesIcon {
+    position: absolute;
+    top: 2145px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.milleCrepesIcon1 {
+    position: absolute;
+    top: 3613px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.searchIcon {
+    position: absolute;
+    top: 80px;
+    left: 1179px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.fireIcon {
+    position: absolute;
+    top: 1327px;
+    left: 115px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.cakeIcon2 {
+    position: absolute;
+    top: 2061px;
+    left: 113px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.saladIcon {
+    position: absolute;
+    top: 2795px;
+    left: 113px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.cupcakeIcon {
+    position: absolute;
+    top: 3277px;
+    left: 7945px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.cakeIcon3 {
+    position: absolute;
+    top: 2717px;
+    left: 6774px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.ellipseDiv {
+    position: absolute;
+    top: 710px;
+    left: 166px;
+    border-radius: 50%;
+    background-color: #ffc100;
+    width: 90px;
+    height: 90px;
+}
+.bestSellerIcon1 {
+    position: absolute;
+    top: 725px;
+    left: 181px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.foodChild59 {
+    position: absolute;
+    top: 711px;
+    left: 336px;
+    border-radius: 50%;
+    background-color: #ffc100;
+    width: 90px;
+    height: 90px;
+}
+.fireIcon1 {
+    position: absolute;
+    top: 725px;
+    left: 351px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.foodChild60 {
+    position: absolute;
+    top: 711px;
+    left: 506px;
+    border-radius: 50%;
+    background-color: #ffc100;
+    width: 90px;
+    height: 90px;
+}
+.cakeIcon4 {
+    position: absolute;
+    top: 726px;
+    left: 521px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.foodChild61 {
+    position: absolute;
+    top: 710px;
+    left: 676px;
+    border-radius: 50%;
+    background-color: #ffc100;
+    width: 90px;
+    height: 90px;
+}
+.saladIcon1 {
+    position: absolute;
+    top: 726px;
+    left: 691px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.foodChild62 {
+    position: absolute;
+    top: 711px;
+    left: 846px;
+    border-radius: 50%;
+    background-color: #ffc100;
+    width: 90px;
+    height: 90px;
+}
+.foodChild63 {
+    position: absolute;
+    top: 710px;
+    left: 1016px;
+    border-radius: 50%;
+    background-color: #ffc100;
+    width: 90px;
+    height: 90px;
+}
+.coffeeToGo {
+    position: absolute;
+    top: 726px;
+    left: 1031px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.coffeeToGo1 {
+    position: absolute;
+    top: 4263px;
+    left: 113px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.soupPlateIcon {
+    position: absolute;
+    top: 725px;
+    left: 861px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.soupPlateIcon1 {
+    position: absolute;
+    top: 3529px;
+    left: 113px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.corndog1Icon {
+    position: absolute;
+    top: 1412px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.milkBun1 {
+    position: absolute;
+    top: 2447px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.greentea1Icon {
+    position: absolute;
+    top: 4347px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.kopiSusuAren1 {
+    position: absolute;
+    top: 4346px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.chocoOatLatte {
+    position: absolute;
+    top: 4346px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.cappuccinoIcon {
+    position: absolute;
+    top: 4346px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.arenLatteIcon {
+    position: absolute;
+    top: 4346px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.spanishLatte1 {
+    position: absolute;
+    top: 4645px;
+    left: 96px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.americanoIcon {
+    position: absolute;
+    top: 4645px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.caffeMochaIcon {
+    position: absolute;
+    top: 4645px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.breveLatteIcon {
+    position: absolute;
+    top: 4645px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.caffeLatte1 {
+    position: absolute;
+    top: 4646px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.beefLasagnaIcon {
+    position: absolute;
+    top: 1710px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.cromboloniIcon {
+    position: absolute;
+    top: 2145px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.mangoOnIcon {
+    position: absolute;
+    top: 2879px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.purpleNana1 {
+    position: absolute;
+    top: 3178px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.chocoHealthy1 {
+    position: absolute;
+    top: 3178px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.odeng1Icon {
+    position: absolute;
+    top: 1710px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.risoles1Icon {
+    position: absolute;
+    top: 1412px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.mentaiIcon {
+    position: absolute;
+    top: 1412px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.mieGacoanIcon {
+    position: absolute;
+    top: 1412px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.tteokbokki1Icon {
+    position: absolute;
+    top: 1710px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.dimsum1Icon {
+    position: absolute;
+    top: 1710px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.rujakIcon {
+    position: absolute;
+    top: 2879px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.salmonAvocadoIcon {
+    position: absolute;
+    top: 2879px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.cucumberSaladIcon {
+    position: absolute;
+    top: 2879px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.mixFruitSalad1 {
+    position: absolute;
+    top: 3178px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.shrimpSaladIcon {
+    position: absolute;
+    top: 2879px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.ranchChickenSalad1 {
+    position: absolute;
+    top: 3178px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.citrusFennel1 {
+    position: absolute;
+    top: 3178px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.eggSoupIcon {
+    position: absolute;
+    top: 210px;
+    left: 98px;
+    border-radius: 20px;
+    width: 1086px;
+    height: 450px;
+    object-fit: cover;
+}
+.foodChild64 {
+    position: absolute;
+    top: 610px;
+    left: 543px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 193px;
+    height: 25px;
+    opacity: 0.6;
+}
+.foodChild65 {
+    position: absolute;
+    top: 618px;
+    left: 594px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.foodChild66 {
+    position: absolute;
+    top: 618px;
+    left: 552px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.foodChild67 {
+    position: absolute;
+    top: 618px;
+    left: 572px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.foodChild68 {
+    position: absolute;
+    top: 618px;
+    left: 615px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.foodChild69 {
+    position: absolute;
+    top: 618px;
+    left: 635px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.ellipseIcon {
+    position: absolute;
+    top: 616px;
+    left: 674px;
+    width: 13px;
+    height: 13px;
+}
+.foodChild70 {
+    position: absolute;
+    top: 618px;
+    left: 655px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.foodChild71 {
+    position: absolute;
+    top: 618px;
+    left: 696px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.foodChild72 {
+    position: absolute;
+    top: 618px;
+    left: 716px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.cart {
+    position: absolute;
+    top: 0px;
+    left: 39px;
+    font-weight: 600;
+}
+.shoppingCartIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.cartParent {
+    position: absolute;
+    top: 77px;
+    left: 680px;
+    width: 123px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.food {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 5758px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Inter;
+}

@@ -1,0 +1,47 @@
+.checkoutDoneChild {
+    position: absolute;
+    top: 228px;
+    left: 280px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 720px;
+    height: 450px;
+}
+.verifiedIcon {
+    position: absolute;
+    top: 267px;
+    left: 502px;
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+}
+.pesananAkanSegera {
+    margin: 0;
+}
+.pesananAkanSegeraContainer {
+    position: absolute;
+    top: 558px;
+    left: 381px;
+    font-weight: 600;
+}
+.klikDimanaSaja {
+    position: absolute;
+    top: 647px;
+    left: 495px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.3);
+}
+.checkoutDone {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 906px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-family: Inter;
+}
+

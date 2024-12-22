@@ -1,14 +1,26 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from './HOMEPAGE.module.css';
+import { useNavigate } from 'react-router-dom';
 
 
 const HOMEPAGE:FunctionComponent = () => {
+	const navigate = useNavigate();
   	
-  	const onGroupContainerClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
+  	const onCRAFTTextClick = useCallback(() => {
+			navigate('/craft'); 
+  	}, [navigate]);
   	
+	  const onFoodTextClick = useCallback(() => {
+		navigate('/food'); 
+	  }, [navigate]);
   	
+	  const onCartTextClick = useCallback(() => {
+		navigate('/cart'); 
+	  }, [navigate]);
+
+	  const onGroupContainerClick = useCallback(() => {
+	  }, []);
+
   	const onGoodQualityImageClick = useCallback(() => {
     		const anchor = document.querySelector("[data-scroll-to='rectangle1']");
     		if(anchor) {
@@ -39,8 +51,8 @@ const HOMEPAGE:FunctionComponent = () => {
         				<div className={styles.navbarChild} />
         				<div className={styles.navbarItem} />
         				<div className={styles.home}>HOME</div>
-        				<div className={styles.craft} onClick={onGroupContainerClick}>CRAFT</div>
-        				<div className={styles.food} onClick={onGroupContainerClick}>FOOD</div>
+        				<div className={styles.craft} onClick={onCRAFTTextClick}>CRAFT</div>
+        				<div className={styles.food} onClick={onFoodTextClick}>FOOD</div>
       			</div>
       			<div className={styles.rectangleDiv} />
       			<div className={styles.homepageChild1} />
@@ -317,7 +329,7 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.homepageChild45} />
       			<div className={styles.homepageChild46} />
       			<div className={styles.homepageChild47} />
-      			<div className={styles.cartParent} onClick={onGroupContainerClick}>
+      			<div className={styles.cartParent} onClick={onCartTextClick}>
         				<div className={styles.cart}>CART</div>
         				<img className={styles.shoppingCartIcon} alt="" src="./src/images/Shopping Cart.png" />
       			</div>

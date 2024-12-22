@@ -15,6 +15,10 @@ const FOOD:FunctionComponent = () => {
 	const onCRAFTTextClick = useCallback(() => {
 		navigate('/craft'); // Mengarahkan ke /craft
 	  }, [navigate]);
+
+	  const onCartTextClick = useCallback(() => {
+		navigate('/cart'); 
+	  }, [navigate]);
   	
   	
   	const onBestSellerImageClick = useCallback(() => {
@@ -67,8 +71,7 @@ const FOOD:FunctionComponent = () => {
   	return (
     		<div className={styles.food}>
       			<div className={styles.vectorParent} onClick={onGroupContainerClick}>
-        				<img className={styles.groupChild} alt="" src="Ellipse 1.svg" />
-        				<img className={styles.cuplikanLayar202412142308Icon} alt="" src="Cuplikan_layar_2024-12-14_230827-removebg-preview (1) 1.png" />
+        				<img className={styles.cuplikanLayar202412142308Icon} alt="" src="./src/images/logo.png" />
       			</div>
       			<div className={styles.foodChild} data-scroll-to="rectangle5" />
       			<div className={styles.foodItem} data-scroll-to="rectangle4" />
@@ -145,15 +148,18 @@ const FOOD:FunctionComponent = () => {
       			<div className={styles.foodChild55} />
       			<div className={styles.foodChild56} />
       			<div className={styles.foodChild57} />
-      			<img className={styles.wontonIcon} alt="" src="WONTON.png" onClick={onGroupContainerClick} />
-      			<img className={styles.wontonIcon1} alt="" src="WONTON.png" onClick={onGroupContainerClick} />
-      			<img className={styles.wontonIcon2} alt="" src="WONTON.png" />
-      			<img className={styles.pancakeIcon} alt="" src="PANCAKE.png" onClick={onGroupContainerClick} />
-      			<img className={styles.pancakeIcon1} alt="" src="PANCAKE.png" onClick={onGroupContainerClick} />
-      			<img className={styles.pancakeIcon2} alt="" src="PANCAKE.png" onClick={onGroupContainerClick} />
-      			<img className={styles.tanghuluIcon} alt="" src="TANGHULU.png" onClick={onGroupContainerClick} />
-      			<img className={styles.tanghuluIcon1} alt="" src="TANGHULU.png" />
-      			<img className={styles.tanghuluIcon2} alt="" src="TANGHULU.png" />
+      			<img className={styles.wontonIcon} alt="" src="./src/images/WONTON.jpg" onClick={onGroupContainerClick} />
+<img className={styles.wontonIcon1} alt="" src="./src/images/WONTON.jpg" onClick={onGroupContainerClick} />
+<img className={styles.wontonIcon2} alt="" src="./src/images/WONTON.jpg" />
+
+<img className={styles.pancakeIcon} alt="" src="./src/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+<img className={styles.pancakeIcon1} alt="" src="./src/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+<img className={styles.pancakeIcon2} alt="" src="./src/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+
+<img className={styles.tanghuluIcon} alt="" src="./src/images/TANGHULU.jpg" onClick={onGroupContainerClick} />
+<img className={styles.tanghuluIcon1} alt="" src="./src/images/TANGHULU.jpg" />
+<img className={styles.tanghuluIcon2} alt="" src="./src/images/TANGHULU.jpg" />
+
       			<b className={styles.wonton} onClick={onGroupContainerClick}>WONTON</b>
       			<b className={styles.corndog}>CORNDOG</b>
       			<b className={styles.millesCrepes}>MILLES CREPES</b>
@@ -201,7 +207,7 @@ const FOOD:FunctionComponent = () => {
       			<b className={styles.kimbab}>KIMBAB</b>
       			<b className={styles.kimbab1}>KIMBAB</b>
       			<b className={styles.cromboloni}>CROMBOLONI</b>
-      			<img className={styles.classicScones1} alt="" src="Classic Scones 1.png" />
+      			<img className={styles.classicScones1} alt="" src="./src/images/Classic Scones.jpg" />
       			<b className={styles.shrimpSalad}>SHRIMP SALAD</b>
       			<b className={styles.kimbab2}>KIMBAB</b>
       			<b className={styles.arenLatte}>AREN LATTE</b>
@@ -320,69 +326,73 @@ const FOOD:FunctionComponent = () => {
       			<div className={styles.div52}>5.0</div>
       			<div className={styles.div53}>5.0</div>
       			<div className={styles.div54}>5.0</div>
-      			<img className={styles.kimbabIcon} alt="" src="KIMBAB.png" onClick={onGroupContainerClick} />
-      			<img className={styles.kimbabIcon1} alt="" src="KIMBAB.png" />
-      			<img className={styles.kimbabIcon2} alt="" src="KIMBAB.png" />
-      			<img className={styles.kimbabIcon3} alt="" src="KIMBAB.png" />
-      			<img className={styles.chocoTruffleMochi} alt="" src="CHOCO TRUFFLE MOCHI.png" onClick={onGroupContainerClick} />
-      			<img className={styles.chocoTruffleMochi1} alt="" src="CHOCO TRUFFLE MOCHI.png" />
-      			<img className={styles.chocoTruffleMochi2} alt="" src="CHOCO TRUFFLE MOCHI.png" />
-      			<img className={styles.bestSellerIcon} alt="" src="Best Seller.png" />
-      			<img className={styles.starIcon} alt="" src="Star.png" onClick={onGroupContainerClick} />
-      			<img className={styles.starIcon1} alt="" src="Star.png" />
-      			<img className={styles.starIcon2} alt="" src="Star.png" />
-      			<img className={styles.starIcon3} alt="" src="Star.png" onClick={onGroupContainerClick} />
-      			<img className={styles.starIcon4} alt="" src="Star.png" />
-      			<img className={styles.starIcon5} alt="" src="Star.png" onClick={onGroupContainerClick} />
-      			<img className={styles.starIcon6} alt="" src="Star.png" onClick={onGroupContainerClick} />
-      			<img className={styles.starIcon7} alt="" src="Star.png" />
-      			<img className={styles.starIcon8} alt="" src="Star.png" />
-      			<img className={styles.starIcon9} alt="" src="Star.png" />
-      			<img className={styles.starIcon10} alt="" src="Star.png" />
-      			<img className={styles.starIcon11} alt="" src="Star.png" onClick={onGroupContainerClick} />
-      			<img className={styles.starIcon12} alt="" src="Star.png" />
-      			<img className={styles.starIcon13} alt="" src="Star.png" />
-      			<img className={styles.starIcon14} alt="" src="Star.png" />
-      			<img className={styles.starIcon15} alt="" src="Star.png" />
-      			<img className={styles.starIcon16} alt="" src="Star.png" />
-      			<img className={styles.starIcon17} alt="" src="Star.png" />
-      			<img className={styles.starIcon18} alt="" src="Star.png" />
-      			<img className={styles.starIcon19} alt="" src="Star.png" />
-      			<img className={styles.starIcon20} alt="" src="Star.png" onClick={onGroupContainerClick} />
-      			<img className={styles.starIcon21} alt="" src="Star.png" />
-      			<img className={styles.starIcon22} alt="" src="Star.png" />
-      			<img className={styles.starIcon23} alt="" src="Star.png" />
-      			<img className={styles.starIcon24} alt="" src="Star.png" />
-      			<img className={styles.starIcon25} alt="" src="Star.png" />
-      			<img className={styles.starIcon26} alt="" src="Star.png" />
-      			<img className={styles.starIcon27} alt="" src="Star.png" />
-      			<img className={styles.starIcon28} alt="" src="Star.png" />
-      			<img className={styles.starIcon29} alt="" src="Star.png" />
-      			<img className={styles.starIcon30} alt="" src="Star.png" />
-      			<img className={styles.starIcon31} alt="" src="Star.png" />
-      			<img className={styles.starIcon32} alt="" src="Star.png" />
-      			<img className={styles.starIcon33} alt="" src="Star.png" />
-      			<img className={styles.starIcon34} alt="" src="Star.png" />
-      			<img className={styles.starIcon35} alt="" src="Star.png" />
-      			<img className={styles.starIcon36} alt="" src="Star.png" />
-      			<img className={styles.starIcon37} alt="" src="Star.png" />
-      			<img className={styles.starIcon38} alt="" src="Star.png" />
-      			<img className={styles.starIcon39} alt="" src="Star.png" />
-      			<img className={styles.starIcon40} alt="" src="Star.png" />
-      			<img className={styles.starIcon41} alt="" src="Star.png" />
-      			<img className={styles.starIcon42} alt="" src="Star.png" />
-      			<img className={styles.starIcon43} alt="" src="Star.png" />
-      			<img className={styles.starIcon44} alt="" src="Star.png" />
-      			<img className={styles.starIcon45} alt="" src="Star.png" />
-      			<img className={styles.starIcon46} alt="" src="Star.png" />
-      			<img className={styles.starIcon47} alt="" src="Star.png" />
-      			<img className={styles.starIcon48} alt="" src="Star.png" />
-      			<img className={styles.starIcon49} alt="" src="Star.png" />
-      			<img className={styles.starIcon50} alt="" src="Star.png" />
-      			<img className={styles.starIcon51} alt="" src="Star.png" />
-      			<img className={styles.starIcon52} alt="" src="Star.png" />
-      			<img className={styles.starIcon53} alt="" src="Star.png" />
-      			<img className={styles.starIcon54} alt="" src="Star.png" />
+      			<img className={styles.kimbabIcon} alt="" src="./src/images/KIMBAB.jpg" onClick={onGroupContainerClick} />
+<img className={styles.kimbabIcon1} alt="" src="./src/images/KIMBAB.jpg" />
+<img className={styles.kimbabIcon2} alt="" src="./src/images/KIMBAB.jpg" />
+<img className={styles.kimbabIcon3} alt="" src="./src/images/KIMBAB.jpg" />
+
+<img className={styles.chocoTruffleMochi} alt="" src="./src/images/CHOCO TRUFFLE MOCHI.jpg" onClick={onGroupContainerClick} />
+<img className={styles.chocoTruffleMochi1} alt="" src="./src/images/CHOCO TRUFFLE MOCHI.jpg" />
+<img className={styles.chocoTruffleMochi2} alt="" src="./src/images/CHOCO TRUFFLE MOCHI.jpg" />
+
+<img className={styles.bestSellerIcon} alt="" src="./src/images/Best Seller.png" />
+
+<img className={styles.starIcon} alt="" src="./src/images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon1} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon2} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon3} alt="" src="./src/images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon4} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon5} alt="" src="./src/images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon6} alt="" src="./src/images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon7} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon8} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon9} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon10} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon11} alt="" src="./src/images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon12} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon13} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon14} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon15} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon16} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon17} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon18} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon19} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon20} alt="" src="./src/images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon21} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon22} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon23} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon24} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon25} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon26} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon27} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon28} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon29} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon30} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon31} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon32} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon33} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon34} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon35} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon36} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon37} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon38} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon39} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon40} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon41} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon42} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon43} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon44} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon45} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon46} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon47} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon48} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon49} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon50} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon51} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon52} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon53} alt="" src="./src/images/Star.png" />
+<img className={styles.starIcon54} alt="" src="./src/images/Star.png" />
+
       			<div className={styles.footer}>
         				<div className={styles.footerChild} />
         				<div className={styles.bantuan}>Bantuan</div>
@@ -400,83 +410,83 @@ const FOOD:FunctionComponent = () => {
         				<div className={styles.layanan}>Layanan</div>
         				<div className={styles.jelajahiTaste}>{`Jelajahi Taste & Craft`}</div>
         				<div className={styles.pembayaran}>Pembayaran</div>
-        				<img className={styles.image1Icon} alt="" src="image 1.png" />
-        				<img className={styles.id111342587raskM3elfkyp7rvyIcon} alt="" src="id-11134258-7rask-m3elfkyp7rvyc9 1.png" />
-        				<img className={styles.image2Icon} alt="" src="image 2.png" />
-        				<img className={styles.image3Icon} alt="" src="image 3.png" />
-        				<img className={styles.id111342587rasgM3elgbu7vvkgIcon} alt="" src="id-11134258-7rasg-m3elgbu7vvkge8 1.png" />
-        				<img className={styles.id111342587raskM3elfv3kdsb4Icon} alt="" src="id-11134258-7rask-m3elfv3kdsb4ae 1.png" />
-        				<img className={styles.id111342587rascM3elg0155yq7Icon} alt="" src="id-11134258-7rasc-m3elg0155yq700 1.png" />
-        				<img className={styles.id111342587rasiM3elg6a60mmoIcon} alt="" src="id-11134258-7rasi-m3elg6a60mmod7 1.png" />
+        				<img className={styles.image1Icon} alt="" src="./src/images/image 1.png" />
+        				<img className={styles.id111342587raskM3elfkyp7rvyIcon} alt="" src="./src/images/id-11134258-7rask-m3elfkyp7rvyc9 1.png" />
+        				<img className={styles.image2Icon} alt="" src="./src/images/image 2.png" />
+        				<img className={styles.image3Icon} alt="" src="./src/images/image 3.png" />
+        				<img className={styles.id111342587rasgM3elgbu7vvkgIcon} alt="" src="./src/images/id-11134258-7rasg-m3elgbu7vvkge8 1.png" />
+        				<img className={styles.id111342587raskM3elfv3kdsb4Icon} alt="" src="./src/images/id-11134258-7rask-m3elfv3kdsb4ae 1.png" />
+        				<img className={styles.id111342587rascM3elg0155yq7Icon} alt="" src="./src/images/id-11134258-7rasc-m3elg0155yq700 1.png" />
+        				<img className={styles.id111342587rasiM3elg6a60mmoIcon} alt="" src="./src/images/id-11134258-7rasi-m3elg6a60mmod7 1.png" />
         				<div className={styles.socialMedia}>
-          					<img className={styles.youtubeIcon} alt="" src="YouTube.png" />
-          					<img className={styles.instagramIcon} alt="" src="Instagram.png" />
-          					<img className={styles.facebookIcon} alt="" src="Facebook.png" />
-          					<img className={styles.twitterIcon} alt="" src="Twitter.png" />
-          					<img className={styles.tiktokIcon} alt="" src="TikTok.png" />
+          					<img className={styles.youtubeIcon} alt="" src="./src/images/YouTube.png" />
+          					<img className={styles.instagramIcon} alt="" src="./src/images/Instagram.png" />
+          					<img className={styles.facebookIcon} alt="" src="./src/images/Facebook.png" />
+          					<img className={styles.twitterIcon} alt="" src="./src/images/Twitter.png" />
+          					<img className={styles.tiktokIcon} alt="" src="./src/images/TikTok.png" />
         				</div>
       			</div>
       			<div className={styles.foodChild58} />
       			<i className={styles.search}>Search...</i>
-      			<img className={styles.cookiesIcon} alt="" src="COOKIES.png" />
-      			<img className={styles.cookiesIcon1} alt="" src="COOKIES.png" />
-      			<img className={styles.dangoIcon} alt="" src="DANGO.png" />
-      			<img className={styles.dangoIcon1} alt="" src="DANGO.png" />
-      			<img className={styles.cakeIcon} alt="" src="CAKE.png" />
-      			<img className={styles.cakeIcon1} alt="" src="CAKE.png" />
-      			<img className={styles.milleCrepesIcon} alt="" src="MILLE CREPES.png" />
-      			<img className={styles.milleCrepesIcon1} alt="" src="MILLE CREPES.png" />
-      			<img className={styles.searchIcon} alt="" src="Search.png" />
-      			<img className={styles.fireIcon} alt="" src="Fire.png" />
-      			<img className={styles.cakeIcon2} alt="" src="Cake.png" />
-      			<img className={styles.saladIcon} alt="" src="Salad.png" />
-      			<img className={styles.cupcakeIcon} alt="" src="Cupcake.png" />
-      			<img className={styles.cakeIcon3} alt="" src="Cake.png" />
+      			<img className={styles.cookiesIcon} alt="" src="./src/images/COOKIES.jpg" />
+      			<img className={styles.cookiesIcon1} alt="" src="./src/images/COOKIES.jpg" />
+      			<img className={styles.dangoIcon} alt="" src="./src/images/DANGO.jpg" />
+      			<img className={styles.dangoIcon1} alt="" src="./src/images/DANGO.jpg" />
+      			<img className={styles.cakeIcon} alt="" src="./src/images/CAKE.jpg" /> {/* gambar produk  */}
+      			<img className={styles.cakeIcon1} alt="" src="./src/images/CAKE.jpg" />
+      			<img className={styles.milleCrepesIcon} alt="" src="./src/images/MILLE CREPES.jpg" />
+      			<img className={styles.milleCrepesIcon1} alt="" src="./src/images/MILLE CREPES.jpg" />
+      			<img className={styles.searchIcon} alt="" src="./src/images/Search.png" />
+      			<img className={styles.fireIcon} alt="" src="./src/images/Fire.png" />
+      			<img className={styles.cakeIcon2} alt="" src="./src/images/Cake.png" /> {/* cake logo  */}
+      			<img className={styles.saladIcon} alt="" src="./src/images/Salad.png" />
+      			<img className={styles.cupcakeIcon} alt="" src="./src/images/Cupcake.jpg" />
+      			<img className={styles.cakeIcon3} alt="" src="./src/images/Cake.png" />
       			<div className={styles.ellipseDiv} />
-      			<img className={styles.bestSellerIcon1} alt="" src="Best Seller.png" onClick={onBestSellerImageClick} />
+      			<img className={styles.bestSellerIcon1} alt="" src="./src/images/Best Seller.png" onClick={onBestSellerImageClick} />
       			<div className={styles.foodChild59} />
-      			<img className={styles.fireIcon1} alt="" src="Fire.png" onClick={onFireImageClick} />
+      			<img className={styles.fireIcon1} alt="" src="./src/images/Fire.png" onClick={onFireImageClick} />
       			<div className={styles.foodChild60} />
-      			<img className={styles.cakeIcon4} alt="" src="Cake.png" onClick={onCakeImageClick} />
+      			<img className={styles.cakeIcon4} alt="" src="./src/images/Cake.png" onClick={onCakeImageClick} />
       			<div className={styles.foodChild61} />
-      			<img className={styles.saladIcon1} alt="" src="Salad.png" onClick={onSaladImageClick} />
+      			<img className={styles.saladIcon1} alt="" src="./src/images/Salad.png" onClick={onSaladImageClick} />
       			<div className={styles.foodChild62} />
       			<div className={styles.foodChild63} />
-      			<img className={styles.coffeeToGo} alt="" src="Coffee to Go.png" onClick={onCoffeeToGoClick} />
-      			<img className={styles.coffeeToGo1} alt="" src="Coffee to Go.png" />
-      			<img className={styles.soupPlateIcon} alt="" src="Soup Plate.png" onClick={onSoupPlateImageClick} />
-      			<img className={styles.soupPlateIcon1} alt="" src="Soup Plate.png" />
-      			<img className={styles.corndog1Icon} alt="" src="CORNDOG 1.png" />
-      			<img className={styles.milkBun1} alt="" src="Milk Bun 1.png" />
-      			<img className={styles.greentea1Icon} alt="" src="greentea 1.png" />
-      			<img className={styles.kopiSusuAren1} alt="" src="Kopi Susu Aren 1.png" />
-      			<img className={styles.chocoOatLatte} alt="" src="Choco Oat Latte.png" />
-      			<img className={styles.cappuccinoIcon} alt="" src="Cappuccino.png" />
-      			<img className={styles.arenLatteIcon} alt="" src="Aren Latte.png" />
-      			<img className={styles.spanishLatte1} alt="" src="Spanish Latte 1.png" />
-      			<img className={styles.americanoIcon} alt="" src="Americano.png" />
-      			<img className={styles.caffeMochaIcon} alt="" src="Caffe Mocha.png" />
-      			<img className={styles.breveLatteIcon} alt="" src="Breve Latte.png" />
-      			<img className={styles.caffeLatte1} alt="" src="Caffe Latte 1.png" />
-      			<img className={styles.beefLasagnaIcon} alt="" src="BEEF LASAGNA.png" />
-      			<img className={styles.cromboloniIcon} alt="" src="CROMBOLONI.png" />
-      			<img className={styles.mangoOnIcon} alt="" src="Mango On.png" />
-      			<img className={styles.purpleNana1} alt="" src="Purple Nana 1.png" />
-      			<img className={styles.chocoHealthy1} alt="" src="Choco Healthy 1.png" />
-      			<img className={styles.odeng1Icon} alt="" src="ODENG 1.png" />
-      			<img className={styles.risoles1Icon} alt="" src="RISOLES 1.png" />
-      			<img className={styles.mentaiIcon} alt="" src="MENTAI.png" />
-      			<img className={styles.mieGacoanIcon} alt="" src="mie gacoan.png" />
-      			<img className={styles.tteokbokki1Icon} alt="" src="Tteokbokki 1.png" />
-      			<img className={styles.dimsum1Icon} alt="" src="Dimsum 1.png" />
-      			<img className={styles.rujakIcon} alt="" src="Rujak.png" />
-      			<img className={styles.salmonAvocadoIcon} alt="" src="Salmon Avocado.png" />
-      			<img className={styles.cucumberSaladIcon} alt="" src="Cucumber Salad.png" />
-      			<img className={styles.mixFruitSalad1} alt="" src="Mix Fruit Salad.png" />
-      			<img className={styles.shrimpSaladIcon} alt="" src="Shrimp Salad.png" />
-      			<img className={styles.ranchChickenSalad1} alt="" src="Ranch Chicken Salad 1.png" />
-      			<img className={styles.citrusFennel1} alt="" src="Citrus Fennel 1.png" />
-      			<img className={styles.eggSoupIcon} alt="" src="Egg Soup.png" />
+      			<img className={styles.coffeeToGo} alt="" src="./src/images/Coffee to Go.png" onClick={onCoffeeToGoClick} />
+      			<img className={styles.coffeeToGo1} alt="" src="./src/images/Coffee to Go.png" />
+      			<img className={styles.soupPlateIcon} alt="" src="./src/images/Soup Plate.png" onClick={onSoupPlateImageClick} />
+      			<img className={styles.soupPlateIcon1} alt="" src="./src/images/Soup Plate.png" />
+      			<img className={styles.corndog1Icon} alt="" src="./src/images/CORNDOG.jpg" />
+      			<img className={styles.milkBun1} alt="" src="./src/images/Milk Bun.jpg" />
+      			<img className={styles.greentea1Icon} alt="" src="./src/images/greentea.jpg" />
+      			<img className={styles.kopiSusuAren1} alt="" src="./src/images/Kopi Susu Aren.jpg" />
+      			<img className={styles.chocoOatLatte} alt="" src="./src/images/Choco Oat Latte.jpg" />
+      			<img className={styles.cappuccinoIcon} alt="" src="./src/images/Cappuccino.jpg" />
+      			<img className={styles.arenLatteIcon} alt="" src="./src/images/Aren Latte.jpg" />
+      			<img className={styles.spanishLatte1} alt="" src="./src/images/Spanish Latte.jpg" />
+      			<img className={styles.americanoIcon} alt="" src="./src/images/Americano.jpg" />
+      			<img className={styles.caffeMochaIcon} alt="" src="./src/images/Caffe Mocha.jpg" />
+      			<img className={styles.breveLatteIcon} alt="" src="./src/images/Breve Latte.jpg" />
+      			<img className={styles.caffeLatte1} alt="" src="./src/images/Caffe Latte.jpg" />
+      			<img className={styles.beefLasagnaIcon} alt="" src="./src/images/BEEF LASAGNA.jpg" />
+      			<img className={styles.cromboloniIcon} alt="" src="./src/images/CROMBOLONI.jpg" />
+      			<img className={styles.mangoOnIcon} alt="" src="./src/images/Mango On.jpg" />
+      			<img className={styles.purpleNana1} alt="" src="./src/images/Purple Nana.jpg" />
+      			<img className={styles.chocoHealthy1} alt="" src="./src/images/Choco Healthy.jpg" />
+      			<img className={styles.odeng1Icon} alt="" src="./src/images/ODENG.jpg" />
+      			<img className={styles.risoles1Icon} alt="" src="./src/images/RISOLES.jpg" />
+      			<img className={styles.mentaiIcon} alt="" src="./src/images/MENTAI.jpg" />
+      			<img className={styles.mieGacoanIcon} alt="" src="./src/images/mie gacoan.jpg" />
+      			<img className={styles.tteokbokki1Icon} alt="" src="./src/images/Tteokbokki.jpg" />
+      			<img className={styles.dimsum1Icon} alt="" src="./src/images/Dimsum.jpg" />
+      			<img className={styles.rujakIcon} alt="" src="./src/images/Rujak.jpg" />
+      			<img className={styles.salmonAvocadoIcon} alt="" src="./src/images/Salmon Avocado.jpg" />
+      			<img className={styles.cucumberSaladIcon} alt="" src="./src/images/Cucumber Salad.jpg" />
+      			<img className={styles.mixFruitSalad1} alt="" src="./src/images/Mix Fruit Salad.jpg" />
+      			<img className={styles.shrimpSaladIcon} alt="" src="./src/images/Shrimp Salad.jpg" />
+      			<img className={styles.ranchChickenSalad1} alt="" src="./src/images/Ranch Chicken Salad.jpg" />
+      			<img className={styles.citrusFennel1} alt="" src="./src/images/Citrus Fennel.jpg" />
+      			<img className={styles.eggSoupIcon} alt="" src="./src/images/Egg Soup.png" />
       			<div className={styles.foodChild64} />
       			<div className={styles.foodChild65} />
       			<div className={styles.foodChild66} />
@@ -487,9 +497,9 @@ const FOOD:FunctionComponent = () => {
       			<div className={styles.foodChild70} />
       			<div className={styles.foodChild71} />
       			<div className={styles.foodChild72} />
-      			<div className={styles.cartParent} onClick={onGroupContainerClick}>
+      			<div className={styles.cartParent} onClick={ onCartTextClick}>
         				<div className={styles.cart}>CART</div>
-        				<img className={styles.shoppingCartIcon} alt="" src="Shopping Cart.png" />
+        				<img className={styles.shoppingCartIcon} alt="" src="./src/images/Shopping Cart.png" />
       			</div>
     		</div>);
 };

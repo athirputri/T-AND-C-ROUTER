@@ -8,6 +8,7 @@ import FOOD from "pages/Food/Food.tsx";
 import CHECKOUT from "pages/CHECKOUT/CHECKOUT";
 import CRAFT from "pages/Craft/CRAFT";
 import CARTPRODUCT from "pages/Cart/CARTPRODUCT";
+import CHECKOUTDONE from "pages/CHECKOUT/CHECKDONE/CHECKOUTDONE";
 
 // Library
 import { Route, Routes } from "react-router-dom";
@@ -21,7 +22,8 @@ const Routing = () => {
         <Route path="food" element={<FOOD />} />
         <Route path="profile" element={<Profile />} />
         <Route path="checkout" element={<CHECKOUT />} />
-        <Route path="cartproduct" element={<CARTPRODUCT />} />
+        <Route path="checkdone" element={<CHECKOUTDONE />} />
+        <Route path="cart" element={<CARTPRODUCT />} />
         <Route path="craft" element={<CRAFT />} />
         <Route path="product">
           {/* <Route index element={<Product />} />

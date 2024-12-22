@@ -1,0 +1,140 @@
+.signInButtonChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 208px;
+    height: 68px;
+}
+.signIn1 {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    font-weight: 800;
+}
+.signInButton {
+    position: absolute;
+    top: 713px;
+    left: 531px;
+    width: 208px;
+    height: 68px;
+    cursor: pointer;
+    font-size: 36px;
+}
+.cuplikanLayar202412142308Icon {
+    position: absolute;
+    top: 61px;
+    left: 531px;
+    width: 217px;
+    height: 205px;
+    object-fit: cover;
+}
+.signInChild {
+    position: absolute;
+    top: 354px;
+    left: 346px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 588px;
+    height: 56px;
+}
+.signInItem {
+    position: absolute;
+    top: 530px;
+    left: 346px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 588px;
+    height: 56px;
+}
+.signInInner {
+    position: absolute;
+    top: 618px;
+    left: 346px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 588px;
+    height: 56px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 442px;
+    left: 346px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 588px;
+    height: 56px;
+}
+.username {
+    position: absolute;
+    top: 333px;
+    left: 370px;
+    font-family: 'Konkhmer Sleokchher';
+}
+.phoneNumber {
+    position: absolute;
+    top: 597px;
+    left: 370px;
+    font-family: 'Konkhmer Sleokchher';
+}
+.password {
+    position: absolute;
+    top: 509px;
+    left: 370px;
+    font-family: 'Konkhmer Sleokchher';
+}
+.email {
+    position: absolute;
+    top: 421px;
+    left: 370px;
+    font-family: 'Konkhmer Sleokchher';
+}
+.tasteandcraft {
+    position: absolute;
+    top: 370px;
+    left: 380px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.15;
+}
+.i {
+    position: absolute;
+    top: 634px;
+    left: 380px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.15;
+}
+.sooostasty {
+    position: absolute;
+    top: 546px;
+    left: 375px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.15;
+}
+.tasteandcraftgmailcom {
+    position: absolute;
+    top: 458px;
+    left: 380px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.15;
+}
+.signIn {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+    font-family: Inter;
+}
+

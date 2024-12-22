@@ -1,0 +1,93 @@
+.signInButtonChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 208px;
+    height: 68px;
+    cursor: pointer;
+}
+.logIn1 {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.signInButton {
+    position: absolute;
+    top: 556px;
+    left: 536px;
+    width: 208px;
+    height: 68px;
+    font-size: 36px;
+}
+.cuplikanLayar202412142308Icon {
+    position: absolute;
+    top: 61px;
+    left: 531px;
+    width: 217px;
+    height: 205px;
+    object-fit: cover;
+}
+.logInChild {
+    position: absolute;
+    top: 354px;
+    left: 346px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 588px;
+    height: 56px;
+}
+.logInItem {
+    position: absolute;
+    top: 448px;
+    left: 346px;
+    border-radius: 30px;
+    background-color: #ffc100;
+    width: 588px;
+    height: 56px;
+}
+.username {
+    position: absolute;
+    top: 333px;
+    left: 370px;
+    font-family: 'Konkhmer Sleokchher';
+}
+.password {
+    position: absolute;
+    top: 427px;
+    left: 370px;
+    font-family: 'Konkhmer Sleokchher';
+}
+.tasteandcraft {
+    position: absolute;
+    top: 370px;
+    left: 380px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.15;
+}
+.sooostasty {
+    position: absolute;
+    top: 464px;
+    left: 375px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.15;
+}
+.logIn {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+    font-family: Inter;
+}
+

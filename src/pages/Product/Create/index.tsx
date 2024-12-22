@@ -1,5 +1,5 @@
-const CreateProduct = () => {
-  return <div>CreateProduct Page</div>;
-};
+// const CreateProduct = () => {
+//   return <div>CreateProduct Page</div>;
+// };
 
-export default CreateProduct;
+// export default CreateProduct;

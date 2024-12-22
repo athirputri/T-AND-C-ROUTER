@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+.product1Child {
+    position: absolute;
+    top: 107px;
+    left: 178px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 617px;
+}
+.starIcon {
+    position: absolute;
+    top: 215px;
+    left: 723px;
+    width: 30.3px;
+    height: 30px;
+    object-fit: cover;
+}
+.spicyWontonIs {
+    position: absolute;
+    top: 322px;
+    left: 662px;
+    font-weight: 500;
+    color: #717171;
+    display: inline-block;
+    width: 433px;
+}
+.rp15000 {
+    position: absolute;
+    top: 248px;
+    left: 665px;
+    font-size: 45px;
+    font-weight: 900;
+}
+.food {
+    position: absolute;
+    top: 131px;
+    left: 663px;
+    font-weight: 500;
+}
+.food1 {
+    position: absolute;
+    top: 131px;
+    left: 663px;
+    font-weight: 500;
+    color: #717171;
+    cursor: pointer;
+}
+.spicyFood {
+    position: absolute;
+    top: 131px;
+    left: 766px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.div {
+    position: absolute;
+    top: 131px;
+    left: 736px;
+    font-weight: 500;
+}
+.product1Item {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    border-radius: 50%;
+    background-color: #ffedb4;
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+}
+.backArrowIcon {
+    position: absolute;
+    top: 53px;
+    left: 73px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.wontonIcon {
+    position: absolute;
+    top: 131px;
+    left: 202px;
+    border-radius: 40px;
+    width: 415px;
+    height: 457px;
+    object-fit: cover;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #f29d38;
+    width: 400px;
+    height: 62px;
+}
+.addToCart {
+    position: absolute;
+    top: 15.06px;
+    left: 97px;
+    font-weight: 600;
+    display: inline-block;
+    width: 206px;
+    height: 31.9px;
+    cursor: pointer;
+}
+.rectangleParent {
+    position: absolute;
+    top: 630px;
+    left: 679px;
+    width: 400px;
+    height: 62px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.spicyWonton {
+    position: absolute;
+    top: 161px;
+    left: 663px;
+    font-size: 45px;
+    font-weight: 900;
+}
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 102px;
+    font-weight: 600;
+    display: inline-block;
+    width: 46.7px;
+    height: 30px;
+}
+.starIcon1 {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.parent {
+    position: absolute;
+    top: 215px;
+    left: 662px;
+    width: 148.7px;
+    height: 31px;
+    font-size: 30px;
+}
+.wontonPict5 {
+    position: absolute;
+    top: 622px;
+    left: 217px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.wontonPict4 {
+    position: absolute;
+    top: 622px;
+    left: 322px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.wontonPict2 {
+    position: absolute;
+    top: 622px;
+    left: 532px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.wontonPict3 {
+    position: absolute;
+    top: 622px;
+    left: 427px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.b {
+    position: absolute;
+    top: 1px;
+    left: 297px;
+}
+.sumIcon {
+    position: absolute;
+    top: 3px;
+    left: 324px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.negativeIcon {
+    position: absolute;
+    top: 3px;
+    left: 258px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.qty {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.group {
+    position: absolute;
+    top: 580px;
+    left: 692px;
+    width: 349px;
+    height: 31px;
+}
+.starIcon2 {
+    position: absolute;
+    top: 215px;
+    left: 693px;
+    width: 30.3px;
+    height: 30px;
+    object-fit: cover;
+}
+.product1 {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 25px;
+    color: #000;
+    font-family: Inter;
+}

@@ -6,7 +6,7 @@ export const Layout = () => {
   const { pathname } = useLocation();
 
   return (
-    <>
+    <> 
       <div className={cn("flex gap-2 items-center bg-blue-600 p-4")}>
         <Link to={"/"} className="p-2 bg-white rounded">
           Index
@@ -22,6 +22,9 @@ export const Layout = () => {
         </Link>
         <Link to={"/homepage"} className={cn("p-2 bg-white rounded")}>
           Homepage
+        </Link>
+        <Link to={"/cart"} className={cn("p-2 bg-white rounded")}>
+          Cart
         </Link>
         <Link to={"/food"} className={cn("p-2 bg-white rounded")}>
           Food

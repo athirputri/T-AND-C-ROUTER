@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+.cartProductChild {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    border-radius: 50%;
+    background-color: #ffedb4;
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+}
+.backArrowIcon {
+    position: absolute;
+    top: 53px;
+    left: 73px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.cartProductItem {
+    position: absolute;
+    top: 173px;
+    left: 220px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 210px;
+}
+.cartProductInner {
+    position: absolute;
+    top: 172.5px;
+    left: 435.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 211px;
+}
+.rp15000 {
+    position: absolute;
+    top: 269px;
+    left: 459px;
+    display: inline-block;
+    width: 208px;
+    height: 54px;
+}
+.notePlease {
+    position: absolute;
+    top: 329px;
+    left: 459px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+.spicyWonton {
+    position: absolute;
+    top: 209px;
+    left: 459px;
+    font-weight: 900;
+}
+.wontonIcon {
+    position: absolute;
+    top: 203px;
+    left: 250px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.div {
+    position: absolute;
+    top: 259px;
+    left: 1053px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 405px;
+    left: 220px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 210px;
+}
+.lineDiv {
+    position: absolute;
+    top: 404.5px;
+    left: 435.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 211px;
+}
+.tanghulu {
+    position: absolute;
+    top: 441px;
+    left: 459px;
+    font-weight: 900;
+}
+.div1 {
+    position: absolute;
+    top: 491px;
+    left: 1053px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.rp7000 {
+    position: absolute;
+    top: 503px;
+    left: 459px;
+    font-size: 35px;
+}
+.notePlease1 {
+    position: absolute;
+    top: 561px;
+    left: 459px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+.cartProductChild1 {
+    position: absolute;
+    top: 637px;
+    left: 220px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 210px;
+}
+.cartProductChild2 {
+    position: absolute;
+    top: 636.5px;
+    left: 435.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 211px;
+}
+.pancake {
+    position: absolute;
+    top: 673px;
+    left: 459px;
+    font-weight: 900;
+}
+.div2 {
+    position: absolute;
+    top: 723px;
+    left: 1053px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.rp150001 {
+    position: absolute;
+    top: 735px;
+    left: 459px;
+    font-size: 35px;
+}
+.notePlease2 {
+    position: absolute;
+    top: 793px;
+    left: 459px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+.wontonIcon1 {
+    position: absolute;
+    top: 203px;
+    left: 252px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.rp150002 {
+    position: absolute;
+    top: 271px;
+    left: 459px;
+    font-size: 35px;
+    display: inline-block;
+    width: 227px;
+    height: 54px;
+}
+.cartProductChild5 {
+    position: absolute;
+    top: 869px;
+    left: 222px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 210px;
+}
+.cartProductChild6 {
+    position: absolute;
+    top: 868.5px;
+    left: 437.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 211px;
+}
+.chocoMochi {
+    position: absolute;
+    top: 905px;
+    left: 461px;
+    font-weight: 900;
+}
+.div4 {
+    position: absolute;
+    top: 955px;
+    left: 1055px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.rp10000 {
+    position: absolute;
+    top: 967px;
+    left: 461px;
+    font-size: 35px;
+    display: inline-block;
+    width: 225px;
+    height: 54px;
+}
+.notePlease4 {
+    position: absolute;
+    top: 1025px;
+    left: 461px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+.cartProductChild7 {
+    position: absolute;
+    top: 1101px;
+    left: 220px;
+    border-radius: 50px;
+    background-color: #ffedb4;
+    width: 949px;
+    height: 210px;
+}
+.cartProductChild8 {
+    position: absolute;
+    top: 1100.5px;
+    left: 435.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 211px;
+}
+.kimbab {
+    position: absolute;
+    top: 1137px;
+    left: 459px;
+    font-weight: 900;
+}
+.div5 {
+    position: absolute;
+    top: 1187px;
+    left: 1053px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.rp100001 {
+    position: absolute;
+    top: 1199px;
+    left: 459px;
+    font-size: 35px;
+    display: inline-block;
+    width: 227px;
+    height: 54px;
+}
+.notePlease5 {
+    position: absolute;
+    top: 1257px;
+    left: 459px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+.cartProductChild9 {
+    position: absolute;
+    top: 258px;
+    left: 122px;
+    background-color: #ffedb4;
+    width: 60px;
+    height: 60px;
+}
+.cartProductChild10 {
+    position: absolute;
+    top: 490px;
+    left: 122px;
+    background-color: #ffedb4;
+    width: 60px;
+    height: 60px;
+}
+.cartProductChild11 {
+    position: absolute;
+    top: 722px;
+    left: 122px;
+    background-color: #ffedb4;
+    width: 60px;
+    height: 60px;
+}
+.cartProductChild12 {
+    position: absolute;
+    top: 954px;
+    left: 122px;
+    background-color: #ffedb4;
+    width: 60px;
+    height: 60px;
+}
+.cartProductChild13 {
+    position: absolute;
+    top: 1186px;
+    left: 122px;
+    background-color: #ffedb4;
+    width: 60px;
+    height: 60px;
+}
+.doneIcon {
+    position: absolute;
+    top: 733px;
+    left: 133px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.square98Icon {
+    position: absolute;
+    top: 723px;
+    left: 123px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.square99Icon {
+    position: absolute;
+    top: 491px;
+    left: 123px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.square100Icon {
+    position: absolute;
+    top: 258px;
+    left: 123px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.square101Icon {
+    position: absolute;
+    top: 1187px;
+    left: 123px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.square103Icon {
+    position: absolute;
+    top: 955px;
+    left: 123px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.sumIcon {
+    position: absolute;
+    top: 258px;
+    left: 1085px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.negativeIcon {
+    position: absolute;
+    top: 258px;
+    left: 993px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.negativeIcon1 {
+    position: absolute;
+    top: 722px;
+    left: 993px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.sumIcon1 {
+    position: absolute;
+    top: 722px;
+    left: 1085px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.negativeIcon2 {
+    position: absolute;
+    top: 490px;
+    left: 993px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.sumIcon2 {
+    position: absolute;
+    top: 490px;
+    left: 1085px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.negativeIcon4 {
+    position: absolute;
+    top: 1186px;
+    left: 993px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.sumIcon4 {
+    position: absolute;
+    top: 1186px;
+    left: 1085px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.negativeIcon5 {
+    position: absolute;
+    top: 954px;
+    left: 995px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.sumIcon5 {
+    position: absolute;
+    top: 954px;
+    left: 1087px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.cartProductChild14 {
+    position: absolute;
+    top: 1377px;
+    left: 0px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #ffedb4;
+    width: 1280px;
+    height: 126px;
+}
+.cartProductChild15 {
+    position: absolute;
+    top: 1377px;
+    left: 978px;
+    border-radius: 0px 50px 0px 0px;
+    background-color: #ffc100;
+    width: 302px;
+    height: 126px;
+    cursor: pointer;
+}
+.square102Icon {
+    position: absolute;
+    top: 1410px;
+    left: 72px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.semua {
+    position: absolute;
+    top: 1418px;
+    left: 152px;
+    font-size: 36px;
+}
+.total {
+    position: absolute;
+    top: 1420px;
+    left: 640px;
+    font-size: 36px;
+}
+.checkout {
+    position: absolute;
+    top: 1416px;
+    left: 1018px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.tanghuluIcon {
+    position: absolute;
+    top: 441px;
+    left: 252px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.pancakeIcon {
+    position: absolute;
+    top: 667px;
+    left: 252px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.chocoTruffleMochi {
+    position: absolute;
+    top: 899px;
+    left: 252px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.kimbabIcon {
+    position: absolute;
+    top: 1131px;
+    left: 252px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.rp150003 {
+    position: absolute;
+    top: 1420px;
+    left: 745px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #ff6500;
+}
+.cartProduct {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #c40c0c, #ff6500);
+    height: 1503px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 45px;
+    color: #000;
+    font-family: Inter;
+}
+

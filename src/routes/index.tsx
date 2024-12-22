@@ -9,8 +9,10 @@ import CHECKOUT from "pages/CHECKOUT/CHECKOUT";
 import CRAFT from "pages/Craft/CRAFT";
 import CARTPRODUCT from "pages/Cart/CARTPRODUCT";
 import CHECKOUTDONE from "pages/CHECKOUT/CHECKDONE/CHECKOUTDONE";
-import SIGNIN from "pages/Sign in/SIGNIN";
-import LOGIN from "pages/Login/LOGIN";
+import PRODUCT from "pages/Product/PRODUCT";
+
+// import SIGNIN from "pages/Sign in/SIGNIN";
+// import LOGIN from "pages/Login/LOGIN";
 
 // Library
 import { Route, Routes } from "react-router-dom";
@@ -20,8 +22,8 @@ const Routing = () => {
   return (
     <Routes>
       <Route>
-        <Route path="signin" element={<SIGNIN />} />
-        <Route path="login" element={<LOGIN />} />
+        {/* <Route path="signin" element={<SIGNIN />} /> */}
+        {/* <Route path="login" element={<LOGIN />} /> */}
         <Route path="homepage" element={<HOMEPAGE />} />
         <Route path="food" element={<FOOD />} />
         <Route path="profile" element={<Profile />} />
@@ -29,11 +31,11 @@ const Routing = () => {
         <Route path="checkdone" element={<CHECKOUTDONE />} />
         <Route path="cart" element={<CARTPRODUCT />} />
         <Route path="craft" element={<CRAFT />} />
-        <Route path="product">
+        <Route path="product" element={<PRODUCT />} />
           {/* <Route index element={<Product />} />
           <Route path=":id" element={<ProductId />} />
           <Route path="create" element={<CreateProduct />} /> */}
-        </Route>
+        {/* </Route> */}
       </Route>
       <Route path="*" element={<p>Not Found</p>} />
     </Routes>

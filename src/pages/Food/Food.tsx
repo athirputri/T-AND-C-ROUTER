@@ -9,7 +9,19 @@ const FOOD:FunctionComponent = () => {
 
   	
   	const onGroupContainerClick = useCallback(() => {
-		navigate('/');
+		navigate('/homepage');
+	}, [navigate]);
+
+  	// const onWontonClick = useCallback(() => {
+	// 	navigate('/product');
+	// }, [navigate]);
+
+  	const onPancakeClick = useCallback(() => {
+		navigate('/product');
+	}, [navigate]);
+
+  	const onLogoClick = useCallback(() => {
+		navigate('./src/components/Sidebar/SIDEBAR.tsx');
 	}, [navigate]);
 	
 	const onCRAFTTextClick = useCallback(() => {
@@ -70,7 +82,7 @@ const FOOD:FunctionComponent = () => {
   	
   	return (
     		<div className={styles.food}>
-      			<div className={styles.vectorParent} onClick={onGroupContainerClick}>
+      			<div className={styles.vectorParent} onClick={onLogoClick}>
         				<img className={styles.cuplikanLayar202412142308Icon} alt="" src="./src/images/logo.png" />
       			</div>
       			<div className={styles.foodChild} data-scroll-to="rectangle5" />
@@ -152,9 +164,9 @@ const FOOD:FunctionComponent = () => {
 <img className={styles.wontonIcon1} alt="" src="./src/images/WONTON.jpg" onClick={onGroupContainerClick} />
 <img className={styles.wontonIcon2} alt="" src="./src/images/WONTON.jpg" />
 
-<img className={styles.pancakeIcon} alt="" src="./src/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
-<img className={styles.pancakeIcon1} alt="" src="./src/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
-<img className={styles.pancakeIcon2} alt="" src="./src/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+<img className={styles.pancakeIcon} alt="" src="./src/images/PANCAKE.jpg" onClick={onPancakeClick} />
+<img className={styles.pancakeIcon1} alt="" src="./src/images/PANCAKE.jpg" onClick={onPancakeClick} />
+<img className={styles.pancakeIcon2} alt="" src="./src/images/PANCAKE.jpg" onClick={onPancakeClick} />
 
 <img className={styles.tanghuluIcon} alt="" src="./src/images/TANGHULU.jpg" onClick={onGroupContainerClick} />
 <img className={styles.tanghuluIcon1} alt="" src="./src/images/TANGHULU.jpg" />
@@ -171,7 +183,7 @@ const FOOD:FunctionComponent = () => {
       			<b className={styles.dragonFruit}>DRAGON FRUIT</b>
       			<b className={styles.spicyWonton}>SPICY WONTON</b>
       			<b className={styles.spanishLatte}>SPANISH LATTE</b>
-      			<b className={styles.pancake} onClick={onGroupContainerClick}>PANCAKE</b>
+      			<b className={styles.pancake} onClick={onPancakeClick}>PANCAKE</b>
       			<b className={styles.dimsumMentai}>DIMSUM MENTAI</b>
       			<b className={styles.tiramisu}>TIRAMISU</b>
       			<b className={styles.fruitSalad}>FRUIT SALAD</b>

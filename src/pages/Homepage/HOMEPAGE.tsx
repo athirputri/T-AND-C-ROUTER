@@ -2,7 +2,6 @@ import { FunctionComponent, useCallback } from 'react';
 import styles from './HOMEPAGE.module.css';
 import { useNavigate } from 'react-router-dom';
 
-
 const HOMEPAGE:FunctionComponent = () => {
 	const navigate = useNavigate();
   	

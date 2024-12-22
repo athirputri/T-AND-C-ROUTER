@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
-body {
-  	margin: 0; line-height: normal;
-}
-
-.product1Child {
+.product2Child {
     position: absolute;
     top: 107px;
     left: 178px;
@@ -20,7 +15,7 @@ body {
     height: 30px;
     object-fit: cover;
 }
-.spicyWontonIs {
+.pancakeIsA {
     position: absolute;
     top: 322px;
     left: 662px;
@@ -50,7 +45,7 @@ body {
     color: #717171;
     cursor: pointer;
 }
-.spicyFood {
+.dessert {
     position: absolute;
     top: 131px;
     left: 766px;
@@ -63,7 +58,7 @@ body {
     left: 736px;
     font-weight: 500;
 }
-.product1Item {
+.product2Item {
     position: absolute;
     top: 40px;
     left: 60px;
@@ -82,15 +77,6 @@ body {
     object-fit: cover;
     cursor: pointer;
 }
-.wontonIcon {
-    position: absolute;
-    top: 131px;
-    left: 202px;
-    border-radius: 40px;
-    width: 415px;
-    height: 457px;
-    object-fit: cover;
-}
 .groupChild {
     position: absolute;
     top: 0px;
@@ -99,6 +85,7 @@ body {
     background-color: #f29d38;
     width: 400px;
     height: 62px;
+    cursor: pointer;
 }
 .addToCart {
     position: absolute;
@@ -119,7 +106,7 @@ body {
     cursor: pointer;
     font-size: 30px;
 }
-.spicyWonton {
+.pancake {
     position: absolute;
     top: 161px;
     left: 663px;
@@ -150,42 +137,6 @@ body {
     width: 148.7px;
     height: 31px;
     font-size: 30px;
-}
-.wontonPict5 {
-    position: absolute;
-    top: 622px;
-    left: 217px;
-    border-radius: 10px;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-}
-.wontonPict4 {
-    position: absolute;
-    top: 622px;
-    left: 322px;
-    border-radius: 10px;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-}
-.wontonPict2 {
-    position: absolute;
-    top: 622px;
-    left: 532px;
-    border-radius: 10px;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-}
-.wontonPict3 {
-    position: absolute;
-    top: 622px;
-    left: 427px;
-    border-radius: 10px;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
 }
 .b {
     position: absolute;
@@ -228,7 +179,52 @@ body {
     height: 30px;
     object-fit: cover;
 }
-.product1 {
+.pancakeIcon {
+    position: absolute;
+    top: 131px;
+    left: 202px;
+    border-radius: 40px;
+    width: 415px;
+    height: 457px;
+    object-fit: cover;
+}
+.pancakePict4 {
+    position: absolute;
+    top: 622px;
+    left: 217px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.pancakePict3 {
+    position: absolute;
+    top: 622px;
+    left: 322px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.pancakePict2 {
+    position: absolute;
+    top: 622px;
+    left: 427px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.pancakePict5 {
+    position: absolute;
+    top: 622px;
+    left: 532px;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.product2 {
     width: 100%;
     position: relative;
     background: linear-gradient(180deg, #c40c0c, #ff6500);
@@ -239,3 +235,4 @@ body {
     color: #000;
     font-family: Inter;
 }
+

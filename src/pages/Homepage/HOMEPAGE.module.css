@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,400;0,500;0,600;0,700;0,900;1,400&display=swap');
-body {
-  	margin: 0; line-height: normal;
-}
-
 .groupChild {
     position: absolute;
     top: 0px;
@@ -24,6 +19,7 @@ body {
     left: 30px;
     width: 130px;
     height: 130px;
+    cursor: pointer;
 }
 .homepageChild {
     position: absolute;
@@ -110,29 +106,12 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
-.others {
-    position: absolute;
-    top: 13px;
-    left: 485px;
-    font-weight: 600;
-}
 .food {
     position: absolute;
     top: 13px;
     left: 187px;
     font-weight: 600;
     cursor: pointer;
-}
-.div {
-    position: absolute;
-    top: 23px;
-    left: 644px;
-    font-weight: 200;
-    display: inline-block;
-    width: 24px;
-    height: 36px;
-    transform:  rotate(90deg);
-    transform-origin: 0 0;
 }
 .navbar {
     position: absolute;
@@ -162,7 +141,7 @@ body {
 }
 .homepageChild2 {
     position: absolute;
-    top: 2595px;
+    top: 1861px;
     left: 97px;
     border-radius: 20px;
     background-color: #ffedb4;
@@ -171,17 +150,18 @@ body {
 }
 .homepageChild3 {
     position: absolute;
-    top: 1861px;
-    left: 97px;
+    top: 1127px;
+    left: 316px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
     height: 114px;
+    cursor: pointer;
 }
 .homepageChild4 {
     position: absolute;
-    top: 2894px;
-    left: 97px;
+    top: 1562px;
+    left: 316px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -189,17 +169,18 @@ body {
 }
 .homepageChild5 {
     position: absolute;
-    top: 2160px;
-    left: 97px;
+    top: 1861px;
+    left: 316px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
     height: 114px;
+    cursor: pointer;
 }
 .homepageChild6 {
     position: absolute;
-    top: 3193px;
-    left: 97px;
+    top: 1127px;
+    left: 976px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -207,8 +188,8 @@ body {
 }
 .homepageChild7 {
     position: absolute;
-    top: 1127px;
-    left: 316px;
+    top: 1562px;
+    left: 976px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -216,8 +197,8 @@ body {
 }
 .homepageChild8 {
     position: absolute;
-    top: 1562px;
-    left: 316px;
+    top: 2595px;
+    left: 976px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -225,8 +206,8 @@ body {
 }
 .homepageChild9 {
     position: absolute;
-    top: 2595px;
-    left: 316px;
+    top: 1861px;
+    left: 976px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -234,8 +215,8 @@ body {
 }
 .homepageChild10 {
     position: absolute;
-    top: 1861px;
-    left: 316px;
+    top: 1127px;
+    left: 536px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -243,8 +224,8 @@ body {
 }
 .homepageChild11 {
     position: absolute;
-    top: 2894px;
-    left: 316px;
+    top: 1562px;
+    left: 536px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -252,8 +233,8 @@ body {
 }
 .homepageChild12 {
     position: absolute;
-    top: 2160px;
-    left: 316px;
+    top: 1861px;
+    left: 536px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -261,8 +242,8 @@ body {
 }
 .homepageChild13 {
     position: absolute;
-    top: 3193px;
-    left: 316px;
+    top: 1127px;
+    left: 756px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -270,8 +251,8 @@ body {
 }
 .homepageChild14 {
     position: absolute;
-    top: 1127px;
-    left: 976px;
+    top: 1562px;
+    left: 756px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -279,8 +260,8 @@ body {
 }
 .homepageChild15 {
     position: absolute;
-    top: 1562px;
-    left: 976px;
+    top: 2595px;
+    left: 756px;
     border-radius: 20px;
     background-color: #ffedb4;
     width: 207px;
@@ -288,169 +269,7 @@ body {
 }
 .homepageChild16 {
     position: absolute;
-    top: 2595px;
-    left: 976px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild17 {
-    position: absolute;
     top: 1861px;
-    left: 976px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild18 {
-    position: absolute;
-    top: 2894px;
-    left: 976px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild19 {
-    position: absolute;
-    top: 2160px;
-    left: 976px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild20 {
-    position: absolute;
-    top: 3193px;
-    left: 976px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild21 {
-    position: absolute;
-    top: 1127px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild22 {
-    position: absolute;
-    top: 1562px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild23 {
-    position: absolute;
-    top: 2595px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild24 {
-    position: absolute;
-    top: 1861px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild25 {
-    position: absolute;
-    top: 2894px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild26 {
-    position: absolute;
-    top: 2160px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild27 {
-    position: absolute;
-    top: 3193px;
-    left: 536px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild28 {
-    position: absolute;
-    top: 1127px;
-    left: 756px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild29 {
-    position: absolute;
-    top: 1562px;
-    left: 756px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild30 {
-    position: absolute;
-    top: 2595px;
-    left: 756px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild31 {
-    position: absolute;
-    top: 1861px;
-    left: 756px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild32 {
-    position: absolute;
-    top: 2894px;
-    left: 756px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild33 {
-    position: absolute;
-    top: 2160px;
-    left: 756px;
-    border-radius: 20px;
-    background-color: #ffedb4;
-    width: 207px;
-    height: 114px;
-}
-.homepageChild34 {
-    position: absolute;
-    top: 3193px;
     left: 756px;
     border-radius: 20px;
     background-color: #ffedb4;
@@ -465,6 +284,7 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
+    cursor: pointer;
 }
 .wontonIcon1 {
     position: absolute;
@@ -474,33 +294,7 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
-}
-.wontonIcon2 {
-    position: absolute;
-    top: 2742px;
-    left: 97px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.wontonIcon3 {
-    position: absolute;
-    top: 2008px;
-    left: 97px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.wontonIcon4 {
-    position: absolute;
-    top: 3041px;
-    left: 97px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
+    cursor: pointer;
 }
 .pancakeIcon {
     position: absolute;
@@ -510,6 +304,7 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
+    cursor: pointer;
 }
 .pancakeIcon1 {
     position: absolute;
@@ -519,33 +314,7 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
-}
-.pancakeIcon2 {
-    position: absolute;
-    top: 2742px;
-    left: 316px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.pancakeIcon3 {
-    position: absolute;
-    top: 2008px;
-    left: 316px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.pancakeIcon4 {
-    position: absolute;
-    top: 3041px;
-    left: 316px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
+    cursor: pointer;
 }
 .tanghuluIcon {
     position: absolute;
@@ -555,6 +324,7 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
+    cursor: pointer;
 }
 .tanghuluIcon1 {
     position: absolute;
@@ -565,102 +335,39 @@ body {
     height: 196px;
     object-fit: cover;
 }
-.tanghuluIcon2 {
-    position: absolute;
-    top: 2742px;
-    left: 536px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.tanghuluIcon3 {
-    position: absolute;
-    top: 2008px;
-    left: 536px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.tanghuluIcon4 {
-    position: absolute;
-    top: 3041px;
-    left: 536px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
 .spicyWonton {
     position: absolute;
     top: 1184px;
     left: 113px;
+    cursor: pointer;
 }
 .millesCrepes {
     position: absolute;
     top: 1619px;
     left: 113px;
 }
-.millesCrepes1 {
-    position: absolute;
-    top: 2652px;
-    left: 113px;
-}
 .spicyWonton1 {
     position: absolute;
     top: 1918px;
     left: 113px;
-}
-.spicyWonton2 {
-    position: absolute;
-    top: 2951px;
-    left: 113px;
-}
-.spicyWonton3 {
-    position: absolute;
-    top: 2217px;
-    left: 113px;
-}
-.spicyWonton4 {
-    position: absolute;
-    top: 3250px;
-    left: 113px;
+    cursor: pointer;
 }
 .sweetPancake {
     position: absolute;
     top: 1185px;
     left: 329px;
+    cursor: pointer;
 }
 .tiramisu {
     position: absolute;
     top: 1620px;
     left: 329px;
 }
-.tiramisu1 {
-    position: absolute;
-    top: 2653px;
-    left: 329px;
-}
 .sweetPancake1 {
     position: absolute;
     top: 1919px;
     left: 329px;
-}
-.sweetPancake2 {
-    position: absolute;
-    top: 2952px;
-    left: 329px;
-}
-.sweetPancake3 {
-    position: absolute;
-    top: 2218px;
-    left: 329px;
-}
-.sweetPancake4 {
-    position: absolute;
-    top: 3251px;
-    left: 329px;
+    cursor: pointer;
 }
 .tanghulu {
     position: absolute;
@@ -672,29 +379,9 @@ body {
     top: 1620px;
     left: 549px;
 }
-.dango1 {
-    position: absolute;
-    top: 2653px;
-    left: 549px;
-}
 .tanghulu1 {
     position: absolute;
     top: 1919px;
-    left: 549px;
-}
-.tanghulu2 {
-    position: absolute;
-    top: 2952px;
-    left: 549px;
-}
-.tanghulu3 {
-    position: absolute;
-    top: 2218px;
-    left: 549px;
-}
-.tanghulu4 {
-    position: absolute;
-    top: 3251px;
     left: 549px;
 }
 .chocoMochi {
@@ -717,21 +404,6 @@ body {
     top: 1919px;
     left: 769px;
 }
-.chocoMochi2 {
-    position: absolute;
-    top: 2952px;
-    left: 769px;
-}
-.chocoMochi3 {
-    position: absolute;
-    top: 2218px;
-    left: 769px;
-}
-.chocoMochi4 {
-    position: absolute;
-    top: 3251px;
-    left: 769px;
-}
 .kimbab {
     position: absolute;
     top: 1185px;
@@ -752,38 +424,17 @@ body {
     top: 1919px;
     left: 989px;
 }
-.kimbab4 {
-    position: absolute;
-    top: 2952px;
-    left: 989px;
-}
-.kimbab5 {
-    position: absolute;
-    top: 2218px;
-    left: 989px;
-}
-.kimbab6 {
-    position: absolute;
-    top: 3251px;
-    left: 989px;
-}
 .rp15000 {
     position: absolute;
     top: 1208px;
     left: 113px;
     font-size: 17px;
     font-weight: 500;
+    cursor: pointer;
 }
 .rp10000 {
     position: absolute;
     top: 1643px;
-    left: 113px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp100001 {
-    position: absolute;
-    top: 2676px;
     left: 113px;
     font-size: 17px;
     font-weight: 500;
@@ -794,76 +445,30 @@ body {
     left: 113px;
     font-size: 17px;
     font-weight: 500;
+    cursor: pointer;
 }
 .rp150002 {
-    position: absolute;
-    top: 2975px;
-    left: 113px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp150003 {
-    position: absolute;
-    top: 2241px;
-    left: 113px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp150004 {
-    position: absolute;
-    top: 3274px;
-    left: 113px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp150005 {
     position: absolute;
     top: 1209px;
     left: 329px;
     font-size: 17px;
     font-weight: 500;
+    cursor: pointer;
 }
-.rp100002 {
+.rp100001 {
     position: absolute;
     top: 1644px;
     left: 329px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp100003 {
-    position: absolute;
-    top: 2677px;
-    left: 329px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp150006 {
+.rp150003 {
     position: absolute;
     top: 1943px;
     left: 329px;
     font-size: 17px;
     font-weight: 500;
-}
-.rp150007 {
-    position: absolute;
-    top: 2976px;
-    left: 329px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp150008 {
-    position: absolute;
-    top: 2242px;
-    left: 329px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp150009 {
-    position: absolute;
-    top: 3275px;
-    left: 329px;
-    font-size: 17px;
-    font-weight: 500;
+    cursor: pointer;
 }
 .rp7000 {
     position: absolute;
@@ -881,138 +486,68 @@ body {
 }
 .rp70002 {
     position: absolute;
-    top: 2677px;
-    left: 549px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp70003 {
-    position: absolute;
     top: 1943px;
     left: 549px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp70004 {
+.rp100002 {
     position: absolute;
-    top: 2976px;
-    left: 549px;
+    top: 1209px;
+    left: 769px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp70005 {
+.rp100003 {
     position: absolute;
-    top: 2242px;
-    left: 549px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp70006 {
-    position: absolute;
-    top: 3275px;
-    left: 549px;
+    top: 1644px;
+    left: 769px;
     font-size: 17px;
     font-weight: 500;
 }
 .rp100004 {
     position: absolute;
-    top: 1209px;
+    top: 2677px;
     left: 769px;
     font-size: 17px;
     font-weight: 500;
 }
 .rp100005 {
     position: absolute;
-    top: 1644px;
+    top: 1943px;
     left: 769px;
     font-size: 17px;
     font-weight: 500;
 }
 .rp100006 {
     position: absolute;
-    top: 2677px;
-    left: 769px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp100007 {
-    position: absolute;
-    top: 1943px;
-    left: 769px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp100008 {
-    position: absolute;
-    top: 2976px;
-    left: 769px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp100009 {
-    position: absolute;
-    top: 2242px;
-    left: 769px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp1000010 {
-    position: absolute;
-    top: 3275px;
-    left: 769px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp1000011 {
-    position: absolute;
     top: 1209px;
     left: 989px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp1000012 {
+.rp100007 {
     position: absolute;
     top: 1644px;
     left: 989px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp1000013 {
+.rp100008 {
     position: absolute;
     top: 2677px;
     left: 989px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp1000014 {
+.rp100009 {
     position: absolute;
     top: 1943px;
     left: 989px;
     font-size: 17px;
     font-weight: 500;
 }
-.rp1000015 {
-    position: absolute;
-    top: 2976px;
-    left: 989px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp1000016 {
-    position: absolute;
-    top: 2242px;
-    left: 989px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.rp1000017 {
-    position: absolute;
-    top: 3275px;
-    left: 989px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.div1 {
+.div {
     position: absolute;
     top: 1211px;
     left: 270px;
@@ -1021,8 +556,9 @@ body {
     display: inline-block;
     width: 24px;
     height: 15px;
+    cursor: pointer;
 }
-.div2 {
+.div1 {
     position: absolute;
     top: 1646px;
     left: 270px;
@@ -1032,17 +568,7 @@ body {
     width: 24px;
     height: 15px;
 }
-.div3 {
-    position: absolute;
-    top: 2679px;
-    left: 270px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div4 {
+.div2 {
     position: absolute;
     top: 1945px;
     left: 270px;
@@ -1051,21 +577,44 @@ body {
     display: inline-block;
     width: 24px;
     height: 15px;
+    cursor: pointer;
 }
-.div5 {
+.div3 {
     position: absolute;
-    top: 2978px;
-    left: 270px;
+    top: 1212px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div4 {
+    position: absolute;
+    top: 1647px;
+    left: 486px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
     width: 24px;
     height: 15px;
 }
+.div5 {
+    position: absolute;
+    top: 1946px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
 .div6 {
     position: absolute;
-    top: 2244px;
-    left: 270px;
+    top: 1212px;
+    left: 706px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1074,8 +623,8 @@ body {
 }
 .div7 {
     position: absolute;
-    top: 3277px;
-    left: 270px;
+    top: 1647px;
+    left: 706px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1084,8 +633,8 @@ body {
 }
 .div8 {
     position: absolute;
-    top: 1212px;
-    left: 486px;
+    top: 1946px;
+    left: 706px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1094,8 +643,8 @@ body {
 }
 .div9 {
     position: absolute;
-    top: 1647px;
-    left: 486px;
+    top: 1212px;
+    left: 926px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1104,8 +653,8 @@ body {
 }
 .div10 {
     position: absolute;
-    top: 2680px;
-    left: 486px;
+    top: 1647px;
+    left: 926px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1114,8 +663,8 @@ body {
 }
 .div11 {
     position: absolute;
-    top: 1946px;
-    left: 486px;
+    top: 2680px;
+    left: 926px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1124,8 +673,8 @@ body {
 }
 .div12 {
     position: absolute;
-    top: 2979px;
-    left: 486px;
+    top: 1946px;
+    left: 926px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1134,8 +683,8 @@ body {
 }
 .div13 {
     position: absolute;
-    top: 2245px;
-    left: 486px;
+    top: 1212px;
+    left: 1146px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1144,8 +693,8 @@ body {
 }
 .div14 {
     position: absolute;
-    top: 3278px;
-    left: 486px;
+    top: 1647px;
+    left: 1146px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1154,8 +703,8 @@ body {
 }
 .div15 {
     position: absolute;
-    top: 1212px;
-    left: 706px;
+    top: 2680px;
+    left: 1146px;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
@@ -1164,197 +713,7 @@ body {
 }
 .div16 {
     position: absolute;
-    top: 1647px;
-    left: 706px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div17 {
-    position: absolute;
-    top: 2680px;
-    left: 706px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div18 {
-    position: absolute;
     top: 1946px;
-    left: 706px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div19 {
-    position: absolute;
-    top: 2979px;
-    left: 706px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div20 {
-    position: absolute;
-    top: 2245px;
-    left: 706px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div21 {
-    position: absolute;
-    top: 3278px;
-    left: 706px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div22 {
-    position: absolute;
-    top: 1212px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div23 {
-    position: absolute;
-    top: 1647px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div24 {
-    position: absolute;
-    top: 2680px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div25 {
-    position: absolute;
-    top: 1946px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div26 {
-    position: absolute;
-    top: 2979px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div27 {
-    position: absolute;
-    top: 2245px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div28 {
-    position: absolute;
-    top: 3278px;
-    left: 926px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div29 {
-    position: absolute;
-    top: 1212px;
-    left: 1146px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div30 {
-    position: absolute;
-    top: 1647px;
-    left: 1146px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div31 {
-    position: absolute;
-    top: 2680px;
-    left: 1146px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div32 {
-    position: absolute;
-    top: 1946px;
-    left: 1146px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div33 {
-    position: absolute;
-    top: 2979px;
-    left: 1146px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div34 {
-    position: absolute;
-    top: 2245px;
-    left: 1146px;
-    font-size: 15px;
-    font-weight: 600;
-    display: inline-block;
-    width: 24px;
-    height: 15px;
-}
-.div35 {
-    position: absolute;
-    top: 3278px;
     left: 1146px;
     font-size: 15px;
     font-weight: 600;
@@ -1378,6 +737,7 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
+    cursor: pointer;
 }
 .kimbabIcon1 {
     position: absolute;
@@ -1406,33 +766,6 @@ body {
     height: 196px;
     object-fit: cover;
 }
-.kimbabIcon4 {
-    position: absolute;
-    top: 2742px;
-    left: 976px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.kimbabIcon5 {
-    position: absolute;
-    top: 2008px;
-    left: 976px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.kimbabIcon6 {
-    position: absolute;
-    top: 3041px;
-    left: 976px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
 .chocoTruffleMochi {
     position: absolute;
     top: 975px;
@@ -1441,37 +774,11 @@ body {
     width: 207px;
     height: 196px;
     object-fit: cover;
+    cursor: pointer;
 }
 .chocoTruffleMochi1 {
     position: absolute;
     top: 1709px;
-    left: 756px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.chocoTruffleMochi2 {
-    position: absolute;
-    top: 2742px;
-    left: 756px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.chocoTruffleMochi3 {
-    position: absolute;
-    top: 2008px;
-    left: 756px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.chocoTruffleMochi4 {
-    position: absolute;
-    top: 3041px;
     left: 756px;
     border-radius: 20px;
     width: 207px;
@@ -1493,6 +800,7 @@ body {
     width: 18px;
     height: 15px;
     object-fit: cover;
+    cursor: pointer;
 }
 .starIcon1 {
     position: absolute;
@@ -1504,263 +812,122 @@ body {
 }
 .starIcon2 {
     position: absolute;
-    top: 2679px;
-    left: 251px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon3 {
-    position: absolute;
     top: 1945px;
     left: 251px;
     width: 18px;
     height: 15px;
     object-fit: cover;
+    cursor: pointer;
+}
+.starIcon3 {
+    position: absolute;
+    top: 1212px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
 }
 .starIcon4 {
     position: absolute;
-    top: 2978px;
-    left: 251px;
+    top: 1647px;
+    left: 467px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon5 {
     position: absolute;
-    top: 2244px;
-    left: 251px;
+    top: 1946px;
+    left: 467px;
     width: 18px;
     height: 15px;
     object-fit: cover;
+    cursor: pointer;
 }
 .starIcon6 {
     position: absolute;
-    top: 3277px;
-    left: 251px;
+    top: 1212px;
+    left: 687px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon7 {
     position: absolute;
-    top: 1212px;
-    left: 467px;
+    top: 1647px;
+    left: 687px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon8 {
     position: absolute;
-    top: 1647px;
-    left: 467px;
+    top: 1946px;
+    left: 687px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon9 {
     position: absolute;
-    top: 2680px;
-    left: 467px;
+    top: 1212px;
+    left: 907px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon10 {
     position: absolute;
-    top: 1946px;
-    left: 467px;
+    top: 1647px;
+    left: 907px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon11 {
     position: absolute;
-    top: 2979px;
-    left: 467px;
+    top: 2680px;
+    left: 907px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon12 {
     position: absolute;
-    top: 2245px;
-    left: 467px;
+    top: 1946px;
+    left: 907px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon13 {
     position: absolute;
-    top: 3278px;
-    left: 467px;
+    top: 1212px;
+    left: 1127px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon14 {
     position: absolute;
-    top: 1212px;
-    left: 687px;
+    top: 1647px;
+    left: 1127px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon15 {
     position: absolute;
-    top: 1647px;
-    left: 687px;
+    top: 2680px;
+    left: 1127px;
     width: 18px;
     height: 15px;
     object-fit: cover;
 }
 .starIcon16 {
     position: absolute;
-    top: 2680px;
-    left: 687px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon17 {
-    position: absolute;
     top: 1946px;
-    left: 687px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon18 {
-    position: absolute;
-    top: 2979px;
-    left: 687px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon19 {
-    position: absolute;
-    top: 2245px;
-    left: 687px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon20 {
-    position: absolute;
-    top: 3278px;
-    left: 687px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon21 {
-    position: absolute;
-    top: 1212px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon22 {
-    position: absolute;
-    top: 1647px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon23 {
-    position: absolute;
-    top: 2680px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon24 {
-    position: absolute;
-    top: 1946px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon25 {
-    position: absolute;
-    top: 2979px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon26 {
-    position: absolute;
-    top: 2245px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon27 {
-    position: absolute;
-    top: 3278px;
-    left: 907px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon28 {
-    position: absolute;
-    top: 1212px;
-    left: 1127px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon29 {
-    position: absolute;
-    top: 1647px;
-    left: 1127px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon30 {
-    position: absolute;
-    top: 2680px;
-    left: 1127px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon31 {
-    position: absolute;
-    top: 1946px;
-    left: 1127px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon32 {
-    position: absolute;
-    top: 2979px;
-    left: 1127px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon33 {
-    position: absolute;
-    top: 2245px;
-    left: 1127px;
-    width: 18px;
-    height: 15px;
-    object-fit: cover;
-}
-.starIcon34 {
-    position: absolute;
-    top: 3278px;
     left: 1127px;
     width: 18px;
     height: 15px;
@@ -2027,7 +1194,7 @@ body {
     height: 621px;
     font-size: 25px;
 }
-.homepageChild35 {
+.homepageChild17 {
     position: absolute;
     top: 73px;
     left: 862px;
@@ -2070,27 +1237,9 @@ body {
     height: 196px;
     object-fit: cover;
 }
-.dangoIcon1 {
-    position: absolute;
-    top: 2443px;
-    left: 536px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
 .cakeIcon {
     position: absolute;
     top: 1410px;
-    left: 316px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
-.cakeIcon1 {
-    position: absolute;
-    top: 2443px;
     left: 316px;
     border-radius: 20px;
     width: 207px;
@@ -2106,15 +1255,6 @@ body {
     height: 196px;
     object-fit: cover;
 }
-.milleCrepesIcon1 {
-    position: absolute;
-    top: 2443px;
-    left: 97px;
-    border-radius: 20px;
-    width: 207px;
-    height: 196px;
-    object-fit: cover;
-}
 .searchIcon {
     position: absolute;
     top: 80px;
@@ -2123,106 +1263,7 @@ body {
     height: 30px;
     object-fit: cover;
 }
-.homepageChild36 {
-    position: absolute;
-    top: 210px;
-    left: 97px;
-    border-radius: 20px;
-    background-color: #d9d9d9;
-    width: 1086px;
-    height: 450px;
-}
-.homepageChild37 {
-    position: absolute;
-    top: 613px;
-    left: 543px;
-    border-radius: 20px;
-    background-color: #fff;
-    width: 193px;
-    height: 25px;
-}
 .ellipseDiv {
-    position: absolute;
-    top: 621px;
-    left: 553px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild38 {
-    position: absolute;
-    top: 621px;
-    left: 573px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild39 {
-    position: absolute;
-    top: 621px;
-    left: 593px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild40 {
-    position: absolute;
-    top: 621px;
-    left: 636px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild41 {
-    position: absolute;
-    top: 621px;
-    left: 656px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild42 {
-    position: absolute;
-    top: 619px;
-    left: 613px;
-    border-radius: 50%;
-    background-color: #838383;
-    width: 13px;
-    height: 13px;
-}
-.homepageChild43 {
-    position: absolute;
-    top: 621px;
-    left: 676px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild44 {
-    position: absolute;
-    top: 621px;
-    left: 696px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild45 {
-    position: absolute;
-    top: 621px;
-    left: 716px;
-    border-radius: 50%;
-    background-color: #cecece;
-    width: 10px;
-    height: 10px;
-}
-.homepageChild46 {
     position: absolute;
     top: 715px;
     left: 425px;
@@ -2239,7 +1280,7 @@ body {
     height: 60px;
     object-fit: cover;
 }
-.homepageChild47 {
+.homepageChild18 {
     position: absolute;
     top: 716px;
     left: 595px;
@@ -2248,7 +1289,7 @@ body {
     width: 90px;
     height: 90px;
 }
-.homepageChild48 {
+.homepageChild19 {
     position: absolute;
     top: 716px;
     left: 765px;
@@ -2283,6 +1324,1007 @@ body {
     object-fit: cover;
     cursor: pointer;
 }
+.homepageChild20 {
+    position: absolute;
+    top: 2160px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild21 {
+    position: absolute;
+    top: 2160px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild22 {
+    position: absolute;
+    top: 2160px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild23 {
+    position: absolute;
+    top: 2160px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild24 {
+    position: absolute;
+    top: 2160px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.mangoSmooth {
+    position: absolute;
+    top: 2217px;
+    left: 113px;
+}
+.fruitSalad {
+    position: absolute;
+    top: 2218px;
+    left: 329px;
+}
+.salmonAvo {
+    position: absolute;
+    top: 2218px;
+    left: 549px;
+}
+.cucumber {
+    position: absolute;
+    top: 2218px;
+    left: 769px;
+}
+.shrimpSalad {
+    position: absolute;
+    top: 2218px;
+    left: 989px;
+}
+.rp1000010 {
+    position: absolute;
+    top: 2241px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000011 {
+    position: absolute;
+    top: 2242px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70003 {
+    position: absolute;
+    top: 2242px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000012 {
+    position: absolute;
+    top: 2242px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000013 {
+    position: absolute;
+    top: 2242px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.div17 {
+    position: absolute;
+    top: 2244px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div18 {
+    position: absolute;
+    top: 2245px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div19 {
+    position: absolute;
+    top: 2245px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div20 {
+    position: absolute;
+    top: 2245px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div21 {
+    position: absolute;
+    top: 2245px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.starIcon17 {
+    position: absolute;
+    top: 2244px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon18 {
+    position: absolute;
+    top: 2245px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon19 {
+    position: absolute;
+    top: 2245px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon20 {
+    position: absolute;
+    top: 2245px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon21 {
+    position: absolute;
+    top: 2245px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.mangoOnIcon {
+    position: absolute;
+    top: 2008px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.rujakIcon {
+    position: absolute;
+    top: 2008px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.salmonAvocadoIcon {
+    position: absolute;
+    top: 2008px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.cucumberSaladIcon {
+    position: absolute;
+    top: 2008px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.shrimpSaladIcon {
+    position: absolute;
+    top: 2008px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.homepageChild25 {
+    position: absolute;
+    top: 2894px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild26 {
+    position: absolute;
+    top: 2894px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+    cursor: pointer;
+}
+.homepageChild27 {
+    position: absolute;
+    top: 2894px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild28 {
+    position: absolute;
+    top: 2894px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild29 {
+    position: absolute;
+    top: 2894px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.pancakeIcon2 {
+    position: absolute;
+    top: 2742px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.tanghuluIcon2 {
+    position: absolute;
+    top: 2742px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.classicScones {
+    position: absolute;
+    top: 2951px;
+    left: 113px;
+}
+.pancake {
+    position: absolute;
+    top: 2952px;
+    left: 329px;
+    cursor: pointer;
+}
+.tanghulu2 {
+    position: absolute;
+    top: 2952px;
+    left: 549px;
+}
+.chocoMochi2 {
+    position: absolute;
+    top: 2952px;
+    left: 769px;
+}
+.classicScones2 {
+    position: absolute;
+    top: 2742px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.milkbun {
+    position: absolute;
+    top: 2952px;
+    left: 989px;
+}
+.rp150004 {
+    position: absolute;
+    top: 2975px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150005 {
+    position: absolute;
+    top: 2976px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rp70004 {
+    position: absolute;
+    top: 2976px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000014 {
+    position: absolute;
+    top: 2976px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000015 {
+    position: absolute;
+    top: 2976px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.div22 {
+    position: absolute;
+    top: 2978px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div23 {
+    position: absolute;
+    top: 2979px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    cursor: pointer;
+}
+.div24 {
+    position: absolute;
+    top: 2979px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div25 {
+    position: absolute;
+    top: 2979px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div26 {
+    position: absolute;
+    top: 2979px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.chocoTruffleMochi2 {
+    position: absolute;
+    top: 2742px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.starIcon22 {
+    position: absolute;
+    top: 2978px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon23 {
+    position: absolute;
+    top: 2979px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.starIcon24 {
+    position: absolute;
+    top: 2979px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon25 {
+    position: absolute;
+    top: 2979px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon26 {
+    position: absolute;
+    top: 2979px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.milkBun2 {
+    position: absolute;
+    top: 2745px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.homepageChild30 {
+    position: absolute;
+    top: 3193px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild31 {
+    position: absolute;
+    top: 3193px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild32 {
+    position: absolute;
+    top: 3193px;
+    left: 976px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild33 {
+    position: absolute;
+    top: 3193px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild34 {
+    position: absolute;
+    top: 3193px;
+    left: 756px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.dragonFruit {
+    position: absolute;
+    top: 3250px;
+    left: 113px;
+}
+.ranchChicken {
+    position: absolute;
+    top: 3251px;
+    left: 329px;
+}
+.citrusFennel {
+    position: absolute;
+    top: 3251px;
+    left: 549px;
+}
+.mixFruitSalad {
+    position: absolute;
+    top: 3251px;
+    left: 769px;
+}
+.chocoSmooth {
+    position: absolute;
+    top: 3251px;
+    left: 989px;
+}
+.rp150006 {
+    position: absolute;
+    top: 3274px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp150007 {
+    position: absolute;
+    top: 3275px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70005 {
+    position: absolute;
+    top: 3275px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000016 {
+    position: absolute;
+    top: 3275px;
+    left: 769px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000017 {
+    position: absolute;
+    top: 3275px;
+    left: 989px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.div27 {
+    position: absolute;
+    top: 3277px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div28 {
+    position: absolute;
+    top: 3278px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div29 {
+    position: absolute;
+    top: 3278px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div30 {
+    position: absolute;
+    top: 3278px;
+    left: 926px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div31 {
+    position: absolute;
+    top: 3278px;
+    left: 1146px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.starIcon27 {
+    position: absolute;
+    top: 3277px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon28 {
+    position: absolute;
+    top: 3278px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon29 {
+    position: absolute;
+    top: 3278px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon30 {
+    position: absolute;
+    top: 3278px;
+    left: 907px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon31 {
+    position: absolute;
+    top: 3278px;
+    left: 1127px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.purpleNana2 {
+    position: absolute;
+    top: 3041px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.chocoHealthy2 {
+    position: absolute;
+    top: 3041px;
+    left: 976px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.mixFruitSalad1 {
+    position: absolute;
+    top: 3041px;
+    left: 756px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.ranchChickenSalad2 {
+    position: absolute;
+    top: 3041px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.citrusFennel2 {
+    position: absolute;
+    top: 3041px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.homepageChild35 {
+    position: absolute;
+    top: 2595px;
+    left: 97px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild36 {
+    position: absolute;
+    top: 2595px;
+    left: 316px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.homepageChild37 {
+    position: absolute;
+    top: 2595px;
+    left: 536px;
+    border-radius: 20px;
+    background-color: #ffedb4;
+    width: 207px;
+    height: 114px;
+}
+.chocoOat {
+    position: absolute;
+    top: 2652px;
+    left: 113px;
+}
+.cappucino {
+    position: absolute;
+    top: 2653px;
+    left: 329px;
+}
+.matchaLatte {
+    position: absolute;
+    top: 2653px;
+    left: 549px;
+}
+.rp1000018 {
+    position: absolute;
+    top: 2676px;
+    left: 113px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp1000019 {
+    position: absolute;
+    top: 2677px;
+    left: 329px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.rp70006 {
+    position: absolute;
+    top: 2677px;
+    left: 549px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.div32 {
+    position: absolute;
+    top: 2679px;
+    left: 270px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div33 {
+    position: absolute;
+    top: 2680px;
+    left: 486px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.div34 {
+    position: absolute;
+    top: 2680px;
+    left: 706px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+}
+.starIcon32 {
+    position: absolute;
+    top: 2679px;
+    left: 251px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon33 {
+    position: absolute;
+    top: 2680px;
+    left: 467px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.starIcon34 {
+    position: absolute;
+    top: 2680px;
+    left: 687px;
+    width: 18px;
+    height: 15px;
+    object-fit: cover;
+}
+.greentea2Icon {
+    position: absolute;
+    top: 2443px;
+    left: 536px;
+    border-radius: 20px;
+    width: 207px;
+    height: 196px;
+    object-fit: cover;
+}
+.chocoOatLatte {
+    position: absolute;
+    top: 2442px;
+    left: 97px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.cappuccinoIcon {
+    position: absolute;
+    top: 2442px;
+    left: 316px;
+    border-radius: 20px;
+    width: 207px;
+    height: 197px;
+    object-fit: cover;
+}
+.bakedSalmonIcon {
+    position: absolute;
+    top: 210px;
+    left: 97px;
+    border-radius: 20px;
+    width: 1086px;
+    height: 450px;
+    object-fit: cover;
+}
+.homepageChild38 {
+    position: absolute;
+    top: 610px;
+    left: 543px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 193px;
+    height: 25px;
+    opacity: 0.6;
+}
+.homepageChild39 {
+    position: absolute;
+    top: 618px;
+    left: 553px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild40 {
+    position: absolute;
+    top: 618px;
+    left: 573px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild41 {
+    position: absolute;
+    top: 618px;
+    left: 593px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild42 {
+    position: absolute;
+    top: 618px;
+    left: 636px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild43 {
+    position: absolute;
+    top: 618px;
+    left: 656px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild44 {
+    position: absolute;
+    top: 616px;
+    left: 613px;
+    border-radius: 50%;
+    background-color: #838383;
+    width: 13px;
+    height: 13px;
+}
+.homepageChild45 {
+    position: absolute;
+    top: 618px;
+    left: 676px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild46 {
+    position: absolute;
+    top: 618px;
+    left: 696px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.homepageChild47 {
+    position: absolute;
+    top: 618px;
+    left: 716px;
+    border-radius: 50%;
+    background-color: #cecece;
+    width: 10px;
+    height: 10px;
+    opacity: 0.75;
+}
+.cart {
+    position: absolute;
+    top: 0px;
+    left: 39px;
+    font-weight: 600;
+}
+.shoppingCartIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.cartParent {
+    position: absolute;
+    top: 77px;
+    left: 680px;
+    width: 123px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 30px;
+}
 .homepage {
     width: 100%;
     position: relative;
@@ -2294,3 +2336,4 @@ body {
     color: #000;
     font-family: Inter;
 }
+

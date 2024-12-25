@@ -23,11 +23,11 @@ const CRAFT:FunctionComponent = () => {
   	return (
     		<div className={styles.craft}>
       			<div className={styles.vectorParent} onClick={onGroupContainerClick}>
-				  <img className={styles.cuplikanLayar202412142308Icon} alt="" src="./src/images/logo.png" />
+				  <img className={styles.cuplikanLayar202412142308Icon} alt="" src="./public/images/logo.png" />
       			</div>
       			<div className={styles.navbar}>
-        				<img className={styles.navbarChild} alt="" src="./src/images/Rectangle 6.png" />
-        				<img className={styles.navbarItem} alt="" src="./src/images/Rectangle 8.png" />
+        				<img className={styles.navbarChild} alt="" src="./public/images/Rectangle 6.png" />
+        				<img className={styles.navbarItem} alt="" src="./public/images/Rectangle 8.png" />
         				<div className={styles.home} onClick={onGroupContainerClick}>HOME</div>
         				<div className={styles.craft1}>CRAFT</div>
         				<div className={styles.food} onClick={onFoodTextClick}>FOOD</div>
@@ -49,30 +49,30 @@ const CRAFT:FunctionComponent = () => {
         				<div className={styles.layanan}>Layanan</div>
         				<div className={styles.jelajahiTaste}>{`Jelajahi Taste & Craft`}</div>
         				<div className={styles.pembayaran}>Pembayaran</div>
-        				<img className={styles.image1Icon} alt="" src="./src/images/image 1.png" />
-        				<img className={styles.id111342587raskM3elfkyp7rvyIcon} alt="" src="./src/images/id-11134258-7rask-m3elfkyp7rvyc9 1.png" />
-        				<img className={styles.image2Icon} alt="" src="./src/images/image 2.png" />
-        				<img className={styles.image3Icon} alt="" src="./src/images/image 3.png" />
-        				<img className={styles.id111342587rasgM3elgbu7vvkgIcon} alt="" src="./src/images/id-11134258-7rasg-m3elgbu7vvkge8 1.png" />
-        				<img className={styles.id111342587raskM3elfv3kdsb4Icon} alt="" src="./src/images/id-11134258-7rask-m3elfv3kdsb4ae 1.png" />
-        				<img className={styles.id111342587rascM3elg0155yq7Icon} alt="" src="./src/images/id-11134258-7rasc-m3elg0155yq700 1.png" />
-        				<img className={styles.id111342587rasiM3elg6a60mmoIcon} alt="" src="./src/images/id-11134258-7rasi-m3elg6a60mmod7 1.png" />
+        				<img className={styles.image1Icon} alt="" src="./public/images/image 1.png" />
+        				<img className={styles.id111342587raskM3elfkyp7rvyIcon} alt="" src="./public/images/id-11134258-7rask-m3elfkyp7rvyc9 1.png" />
+        				<img className={styles.image2Icon} alt="" src="./public/images/image 2.png" />
+        				<img className={styles.image3Icon} alt="" src="./public/images/image 3.png" />
+        				<img className={styles.id111342587rasgM3elgbu7vvkgIcon} alt="" src="./public/images/id-11134258-7rasg-m3elgbu7vvkge8 1.png" />
+        				<img className={styles.id111342587raskM3elfv3kdsb4Icon} alt="" src="./public/images/id-11134258-7rask-m3elfv3kdsb4ae 1.png" />
+        				<img className={styles.id111342587rascM3elg0155yq7Icon} alt="" src="./public/images/id-11134258-7rasc-m3elg0155yq700 1.png" />
+        				<img className={styles.id111342587rasiM3elg6a60mmoIcon} alt="" src="./public/images/id-11134258-7rasi-m3elg6a60mmod7 1.png" />
         				<div className={styles.socialMedia}>
-          					<img className={styles.youtubeIcon} alt="" src="./src/images/YouTube.png" />
-          					<img className={styles.instagramIcon} alt="" src="./src/images/Instagram.png" />
-          					<img className={styles.facebookIcon} alt="" src="./src/images/Facebook.png" />
-          					<img className={styles.twitterIcon} alt="" src="./src/images/Twitter.png" />
-          					<img className={styles.tiktokIcon} alt="" src="./src/images/TikTok.png" />
+          					<img className={styles.youtubeIcon} alt="" src="./public/images/YouTube.png" />
+          					<img className={styles.instagramIcon} alt="" src="./public/images/Instagram.png" />
+          					<img className={styles.facebookIcon} alt="" src="./public/images/Facebook.png" />
+          					<img className={styles.twitterIcon} alt="" src="./public/images/Twitter.png" />
+          					<img className={styles.tiktokIcon} alt="" src="./public/images/TikTok.png" />
         				</div>
       			</div>
       			<div className={styles.craftChild} />
       			<i className={styles.search}>Search...</i>
-      			<img className={styles.searchIcon} alt="" src="./src/images/Search.png" />
+      			<img className={styles.searchIcon} alt="" src="./public/images/Search.png" />
       			<b className={styles.stayTune}>STAY TUNE!</b>
       			<b className={styles.weAreStill}>We are still working on this pages, stay tune for our next update as soon as possible.</b>
       			<div className={styles.cartParent} onClick={onCartTextClick}>
         				<div className={styles.cart}>CART</div>
-        				<img className={styles.shoppingCartIcon} alt="" src="./src/images/Shopping Cart.png" />
+        				<img className={styles.shoppingCartIcon} alt="" src="./public/images/Shopping Cart.png" />
       			</div>
     		</div>);
 };

@@ -8,10 +8,10 @@ export const Layout = () => {
   return (
     <> 
       <div className={cn("flex gap-2 items-center bg-blue-600 p-4")}>
-        <Link to={"/"} className="p-2 bg-white rounded">
+        {/* <Link to={"/"} className="p-2 bg-white rounded">
           Index
-        </Link>
-        <Link to={"/home"} className={cn("p-2 bg-white rounded")}>
+        </Link> */}
+        <Link to={"/"} className={cn("p-2 bg-white rounded")}>
           Home
         </Link>
         <Link to={"/product"} className={cn("p-2 bg-white rounded")}>
@@ -29,9 +29,9 @@ export const Layout = () => {
         <Link to={"/food"} className={cn("p-2 bg-white rounded")}>
           Food
         </Link>
-        <Link to={"/product/create"} className={cn("p-2 bg-white rounded")}>
+        {/* <Link to={"/product/create"} className={cn("p-2 bg-white rounded")}>
           Create Product
-        </Link>
+        </Link> */}
         <Link
           to={`/product/${generateUuid()}`}
           className={cn("p-2 bg-white rounded")}

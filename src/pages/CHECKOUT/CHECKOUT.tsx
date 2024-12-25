@@ -21,7 +21,7 @@ const CHECKOUT:FunctionComponent = () => {
     		<div className={styles.checkout}>
       			<div className={styles.checkoutChild} />
       			<div className={styles.checkoutItem} onClick={onEllipseClick} />
-      			<img className={styles.backArrowIcon} alt="" src="./public/images/Back Arrow.png" onClick={onEllipseClick} />
+      			<img className={styles.backArrowIcon} alt="" src="./images/Back Arrow.png" onClick={onEllipseClick} />
       			<div className={styles.kelasDanJurusan}>Kelas dan Jurusan Penerima :</div>
       			<div className={styles.xiMplb}>XI MPLB</div>
       			<div className={styles.checkoutInner} />

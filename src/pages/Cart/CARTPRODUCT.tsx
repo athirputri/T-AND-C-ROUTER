@@ -19,13 +19,13 @@ const CARTPRODUCT:FunctionComponent = () => {
   	return (
     		<div className={styles.cartProduct}>
       			<div className={styles.cartProductChild} onClick={onEllipseClick} />
-      			<img className={styles.backArrowIcon} alt="" src="./public/images/Back Arrow.png" onClick={onEllipseClick} />
+      			<img className={styles.backArrowIcon} alt="" src="./images/Back Arrow.png" onClick={onEllipseClick} />
       			<div className={styles.cartProductItem} />
       			<div className={styles.cartProductInner} />
       			<div className={styles.rp15000}>Rp.15.000</div>
       			<i className={styles.notePlease}>note : please don’t use chilli...</i>
       			<div className={styles.spicyWonton}>SPICY WONTON</div>
-      			<img className={styles.wontonIcon} alt="" src="./public/images/WONTON.jpg" />
+      			<img className={styles.wontonIcon} alt="" src="./images/WONTON.jpg" />
       			<div className={styles.div}>1</div>
       			<div className={styles.rectangleDiv} />
       			<div className={styles.lineDiv} />
@@ -41,7 +41,7 @@ const CARTPRODUCT:FunctionComponent = () => {
       			<i className={styles.notePlease2}>note : please don’t use chilli...</i>
       			<div className={styles.cartProductItem} />
       			<div className={styles.cartProductInner} />
-      			<img className={styles.wontonIcon1} alt="" src="./public/images/WONTON.jpg" />
+      			<img className={styles.wontonIcon1} alt="" src="./images/WONTON.jpg" />
       			<div className={styles.spicyWonton}>SPICY WONTON</div>
       			<div className={styles.div}>1</div>
       			<div className={styles.rp150002}>Rp. 15.000</div>

@@ -38,7 +38,7 @@ const HOMEPAGE:FunctionComponent = () => {
   	return (
     		<div className={styles.homepage}>
       			<div className={styles.vectorParent} onClick={onGroupContainerClick}>
-        				<img className={styles.cuplikanLayar202412142308Icon} alt="" src="./public/images/logo.png" />
+        				<img className={styles.cuplikanLayar202412142308Icon} alt="" src="./images/logo.png" />
       			</div>
       			<div className={styles.homepageChild} />
       			<div className={styles.homepageItem} data-scroll-to="rectangle" />
@@ -70,12 +70,12 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.homepageChild14} />
       			<div className={styles.homepageChild15} />
       			<div className={styles.homepageChild16} />
-				  <img className={styles.wontonIcon} alt="Wonton" src="./public/images/WONTON.jpg" onClick={onGroupContainerClick} />
-<img className={styles.wontonIcon1} alt="Wonton" src="./public/images/WONTON.jpg" onClick={onGroupContainerClick} />
-<img className={styles.pancakeIcon} alt="Pancake" src="./public/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
-<img className={styles.pancakeIcon1} alt="Pancake" src="./public/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
-<img className={styles.tanghuluIcon} alt="Tanghulu" src="./public/images/TANGHULU.jpg" onClick={onGroupContainerClick} />
-<img className={styles.tanghuluIcon1} alt="Tanghulu" src="./public/images/TANGHULU.jpg" onClick={onGroupContainerClick} />
+				  <img className={styles.wontonIcon} alt="Wonton" src="./images/WONTON.jpg" onClick={onGroupContainerClick} />
+<img className={styles.wontonIcon1} alt="Wonton" src="./images/WONTON.jpg" onClick={onGroupContainerClick} />
+<img className={styles.pancakeIcon} alt="Pancake" src="./images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+<img className={styles.pancakeIcon1} alt="Pancake" src="./images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+<img className={styles.tanghuluIcon} alt="Tanghulu" src="./images/TANGHULU.jpg" onClick={onGroupContainerClick} />
+<img className={styles.tanghuluIcon1} alt="Tanghulu" src="./images/TANGHULU.jpg" onClick={onGroupContainerClick} />
       			<b className={styles.spicyWonton} onClick={onGroupContainerClick}>SPICY WONTON</b>
       			<b className={styles.millesCrepes}>MILLES CREPES</b>
       			<b className={styles.spicyWonton1} onClick={onGroupContainerClick}>SPICY WONTON</b>
@@ -127,33 +127,33 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.div14}>5.0</div>
       			<div className={styles.div15}>5.0</div>
       			<div className={styles.div16}>5.0</div>
-      			<img className={styles.goodQualityIcon} alt="Good Quality" src="./public/images/Good Quality.png" />
-<img className={styles.kimbabIcon} alt="Kimbab" src="./public/images/KIMBAB.jpg" onClick={onGroupContainerClick} />
-<img className={styles.kimbabIcon1} alt="Kimbab" src="./public/images/KIMBAB.jpg" />
-<img className={styles.kimbabIcon2} alt="Kimbab" src="./public/images/KIMBAB.jpg" />
-<img className={styles.kimbabIcon3} alt="Kimbab" src="./public/images/KIMBAB.jpg" />
+      			<img className={styles.goodQualityIcon} alt="Good Quality" src="./images/Good Quality.png" />
+<img className={styles.kimbabIcon} alt="Kimbab" src="./images/KIMBAB.jpg" onClick={onGroupContainerClick} />
+<img className={styles.kimbabIcon1} alt="Kimbab" src="./images/KIMBAB.jpg" />
+<img className={styles.kimbabIcon2} alt="Kimbab" src="./images/KIMBAB.jpg" />
+<img className={styles.kimbabIcon3} alt="Kimbab" src="./images/KIMBAB.jpg" />
 
-<img className={styles.chocoTruffleMochi} alt="Choco Truffle Mochi" src="./public/images/CHOCO TRUFFLE MOCHI.jpg" onClick={onGroupContainerClick} />
-<img className={styles.chocoTruffleMochi1} alt="Choco Truffle Mochi" src="./public/images/CHOCO TRUFFLE MOCHI.jpg" />
+<img className={styles.chocoTruffleMochi} alt="Choco Truffle Mochi" src="./images/CHOCO TRUFFLE MOCHI.jpg" onClick={onGroupContainerClick} />
+<img className={styles.chocoTruffleMochi1} alt="Choco Truffle Mochi" src="./images/CHOCO TRUFFLE MOCHI.jpg" />
 
-<img className={styles.bestSellerIcon} alt="Best Seller" src="./public/images/Best Seller.png" />
-<img className={styles.starIcon} alt="Star" src="./public/images/Star.png" onClick={onGroupContainerClick} />
-<img className={styles.starIcon1} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon2} alt="Star" src="./public/images/Star.png" onClick={onGroupContainerClick} />
-<img className={styles.starIcon3} alt="Star" src="./public/images/Star.png" onClick={onGroupContainerClick} />
-<img className={styles.starIcon4} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon5} alt="Star" src="./public/images/Star.png" onClick={onGroupContainerClick} />
-<img className={styles.starIcon6} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon7} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon8} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon9} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon10} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon11} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon12} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon13} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon14} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon15} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon16} alt="Star" src="./public/images/Star.png" />
+<img className={styles.bestSellerIcon} alt="Best Seller" src="./images/Best Seller.png" />
+<img className={styles.starIcon} alt="Star" src="./images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon1} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon2} alt="Star" src="./images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon3} alt="Star" src="./images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon4} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon5} alt="Star" src="./images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon6} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon7} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon8} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon9} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon10} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon11} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon12} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon13} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon14} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon15} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon16} alt="Star" src="./images/Star.png" />
 
       			<div className={styles.footer}>
         				<div className={styles.footerChild} />
@@ -172,38 +172,38 @@ const HOMEPAGE:FunctionComponent = () => {
         				<div className={styles.layanan}>Layanan</div>
         				<div className={styles.jelajahiTaste}>{`Jelajahi Taste & Craft`}</div>
         				<div className={styles.pembayaran}>Pembayaran</div>
-        				<img className={styles.image1Icon} alt="" src="./public/images/image 1.png" />
-        				<img className={styles.id111342587raskM3elfkyp7rvyIcon} alt="" src="./public/images/id-11134258-7rask-m3elfkyp7rvyc9 1.png" />
-        				<img className={styles.image2Icon} alt="" src="./public/images/image 2.png" />
-        				<img className={styles.image3Icon} alt="" src="./public/images/image 3.png" />
-        				<img className={styles.id111342587rasgM3elgbu7vvkgIcon} alt="Image 1" src="./public/images/id-11134258-7rasg-m3elgbu7vvkge8 1.png" />
-<img className={styles.id111342587raskM3elfv3kdsb4Icon} alt="Image 2" src="./public/images/id-11134258-7rask-m3elfv3kdsb4ae 1.png" />
-<img className={styles.id111342587rascM3elg0155yq7Icon} alt="Image 3" src="./public/images/id-11134258-7rasc-m3elg0155yq700 1.png" />
-<img className={styles.id111342587rasiM3elg6a60mmoIcon} alt="Image 4" src="./public/images/id-11134258-7rasi-m3elg6a60mmod7 1.png" />
+        				<img className={styles.image1Icon} alt="" src="./images/image 1.png" />
+        				<img className={styles.id111342587raskM3elfkyp7rvyIcon} alt="" src="./images/id-11134258-7rask-m3elfkyp7rvyc9 1.png" />
+        				<img className={styles.image2Icon} alt="" src="./images/image 2.png" />
+        				<img className={styles.image3Icon} alt="" src="./images/image 3.png" />
+        				<img className={styles.id111342587rasgM3elgbu7vvkgIcon} alt="Image 1" src="./images/id-11134258-7rasg-m3elgbu7vvkge8 1.png" />
+<img className={styles.id111342587raskM3elfv3kdsb4Icon} alt="Image 2" src="./images/id-11134258-7rask-m3elfv3kdsb4ae 1.png" />
+<img className={styles.id111342587rascM3elg0155yq7Icon} alt="Image 3" src="./images/id-11134258-7rasc-m3elg0155yq700 1.png" />
+<img className={styles.id111342587rasiM3elg6a60mmoIcon} alt="Image 4" src="./images/id-11134258-7rasi-m3elg6a60mmod7 1.png" />
 
         				<div className={styles.socialMedia}>
-          					<img className={styles.youtubeIcon} alt="" src="./public/images/YouTube.png" />
-          					<img className={styles.instagramIcon} alt="" src="./public/images/Instagram.png" />
-          					<img className={styles.facebookIcon} alt="" src="./public/images/Facebook.png" />
-          					<img className={styles.twitterIcon} alt="" src="./public/images/Twitter.png" />
-          					<img className={styles.tiktokIcon} alt="" src="./public/images/TikTok.png" />
+          					<img className={styles.youtubeIcon} alt="" src="./images/YouTube.png" />
+          					<img className={styles.instagramIcon} alt="" src="./images/Instagram.png" />
+          					<img className={styles.facebookIcon} alt="" src="./images/Facebook.png" />
+          					<img className={styles.twitterIcon} alt="" src="./images/Twitter.png" />
+          					<img className={styles.tiktokIcon} alt="" src="./images/TikTok.png" />
         				</div>
       			</div>
       			<div className={styles.homepageChild17} />
       			<i className={styles.search}>Search...</i>
-      			<img className={styles.cookiesIcon} alt="Cookies" src="./public/images/COOKIES.jpg" />
-<img className={styles.cookiesIcon1} alt="Cookies" src="./public/images/COOKIES.jpg" />
-<img className={styles.dangoIcon} alt="Dango" src="./public/images/DANGO.jpg" />
-<img className={styles.cakeIcon} alt="Cake" src="./public/images/CAKE.jpg" />
-<img className={styles.milleCrepesIcon} alt="Mille Crepes" src="./public/images/MILLE CREPES.jpg" />
-<img className={styles.searchIcon} alt="Search" src="./public/images/Search.png" />
+      			<img className={styles.cookiesIcon} alt="Cookies" src="./images/COOKIES.jpg" />
+<img className={styles.cookiesIcon1} alt="Cookies" src="./images/COOKIES.jpg" />
+<img className={styles.dangoIcon} alt="Dango" src="./images/DANGO.jpg" />
+<img className={styles.cakeIcon} alt="Cake" src="./images/CAKE.jpg" />
+<img className={styles.milleCrepesIcon} alt="Mille Crepes" src="./images/MILLE CREPES.jpg" />
+<img className={styles.searchIcon} alt="Search" src="./images/Search.png" />
 <div className={styles.ellipseDiv}></div>
-<img className={styles.bestSellerIcon1} alt="Best Seller" src="./public/images/Best Seller.png" />
+<img className={styles.bestSellerIcon1} alt="Best Seller" src="./images/Best Seller.png" />
 <div className={styles.homepageChild18}></div>
 <div className={styles.homepageChild19}></div>
-<img className={styles.goodQualityIcon1} alt="Good Quality" src="./public/images/Good Quality.png" onClick={onGoodQualityImageClick} />
-<img className={styles.restaurantIcon} alt="Restaurant" src="./public/images/Restaurant.png" />
-<img className={styles.restaurantIcon1} alt="Restaurant" src="./public/images/Restaurant.png" onClick={onRestaurantImageClick} />
+<img className={styles.goodQualityIcon1} alt="Good Quality" src="./images/Good Quality.png" onClick={onGoodQualityImageClick} />
+<img className={styles.restaurantIcon} alt="Restaurant" src="./images/Restaurant.png" />
+<img className={styles.restaurantIcon1} alt="Restaurant" src="./images/Restaurant.png" onClick={onRestaurantImageClick} />
 
       			<div className={styles.homepageChild20} />
       			<div className={styles.homepageChild21} />
@@ -225,29 +225,29 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.div19}>4.9</div>
       			<div className={styles.div20}>5.0</div>
       			<div className={styles.div21}>5.0</div>
-      			<img className={styles.starIcon17} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon18} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon19} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon20} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon21} alt="Star" src="./public/images/Star.png" />
-<img className={styles.mangoOnIcon} alt="Mango On" src="./public/images/Mango On.jpg" />
-<img className={styles.rujakIcon} alt="Rujak" src="./public/images/Rujak.jpg" />
-<img className={styles.salmonAvocadoIcon} alt="Salmon Avocado" src="./public/images/Salmon Avocado.jpg" />
-<img className={styles.cucumberSaladIcon} alt="Cucumber Salad" src="./public/images/Cucumber Salad.jpg" />
-<img className={styles.shrimpSaladIcon} alt="Shrimp Salad" src="./public/images/Shrimp Salad.jpg" />
+      			<img className={styles.starIcon17} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon18} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon19} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon20} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon21} alt="Star" src="./images/Star.png" />
+<img className={styles.mangoOnIcon} alt="Mango On" src="./images/Mango On.jpg" />
+<img className={styles.rujakIcon} alt="Rujak" src="./images/Rujak.jpg" />
+<img className={styles.salmonAvocadoIcon} alt="Salmon Avocado" src="./images/Salmon Avocado.jpg" />
+<img className={styles.cucumberSaladIcon} alt="Cucumber Salad" src="./images/Cucumber Salad.jpg" />
+<img className={styles.shrimpSaladIcon} alt="Shrimp Salad" src="./images/Shrimp Salad.jpg" />
 
       			<div className={styles.homepageChild25} />
       			<div className={styles.homepageChild26} onClick={onGroupContainerClick} />
       			<div className={styles.homepageChild27} />
       			<div className={styles.homepageChild28} />
       			<div className={styles.homepageChild29} />
-      			<img className={styles.pancakeIcon2} alt="Pancake" src="./public/images/PANCAKE.jpg" onClick={onGroupContainerClick} />
-				<img className={styles.tanghuluIcon2} alt="Tanghulu" src="./public/images/TANGHULU.jpg" />
+      			<img className={styles.pancakeIcon2} alt="Pancake" src="./images/PANCAKE.jpg" onClick={onGroupContainerClick} />
+				<img className={styles.tanghuluIcon2} alt="Tanghulu" src="./images/TANGHULU.jpg" />
       			<b className={styles.classicScones}>CLASSIC SCONES</b>
       			<b className={styles.pancake} onClick={onGroupContainerClick}>PANCAKE</b>
       			<b className={styles.tanghulu2}>TANGHULU</b>
       			<b className={styles.chocoMochi2}>CHOCO MOCHI</b>
-      			<img className={styles.classicScones2} alt="" src="./public/images/Classic Scones.jpg" />
+      			<img className={styles.classicScones2} alt="" src="./images/Classic Scones.jpg" />
       			<b className={styles.milkbun}>MILKBUN</b>
       			<div className={styles.rp150004}>Rp. 15.000</div>
       			<div className={styles.rp150005} onClick={onGroupContainerClick}>Rp. 15.000</div>
@@ -259,13 +259,13 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.div24}>5.0</div>
       			<div className={styles.div25}>5.0</div>
       			<div className={styles.div26}>5.0</div>
-      			<img className={styles.chocoTruffleMochi2} alt="Choco Truffle Mochi" src="./public/images/CHOCO TRUFFLE MOCHI.jpg" />
-<img className={styles.starIcon22} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon23} alt="Star" src="./public/images/Star.png" onClick={onGroupContainerClick} />
-<img className={styles.starIcon24} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon25} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon26} alt="Star" src="./public/images/Star.png" />
-<img className={styles.milkBun2} alt="Milk Bun" src="./public/images/Milk Bun.jpg" />
+      			<img className={styles.chocoTruffleMochi2} alt="Choco Truffle Mochi" src="./images/CHOCO TRUFFLE MOCHI.jpg" />
+<img className={styles.starIcon22} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon23} alt="Star" src="./images/Star.png" onClick={onGroupContainerClick} />
+<img className={styles.starIcon24} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon25} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon26} alt="Star" src="./images/Star.png" />
+<img className={styles.milkBun2} alt="Milk Bun" src="./images/Milk Bun.jpg" />
 
       			<div className={styles.homepageChild30} />
       			<div className={styles.homepageChild31} />
@@ -287,16 +287,16 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.div29}>5.0</div>
       			<div className={styles.div30}>5.0</div>
       			<div className={styles.div31}>5.0</div>
-      			<img className={styles.starIcon27} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon28} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon29} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon30} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon31} alt="Star" src="./public/images/Star.png" />
-<img className={styles.purpleNana2} alt="Purple Nana" src="./public/images/Purple Nana.jpg" />
-<img className={styles.chocoHealthy2} alt="Choco Healthy" src="./public/images/Choco Healthy.jpg" />
-<img className={styles.mixFruitSalad1} alt="Mix Fruit Salad" src="./public/images/Mix Fruit Salad.jpg" />
-<img className={styles.ranchChickenSalad2} alt="Ranch Chicken Salad" src="./public/images/Ranch Chicken Salad.jpg" />
-<img className={styles.citrusFennel2} alt="Citrus Fennel" src="./public/images/Citrus Fennel.jpg" />
+      			<img className={styles.starIcon27} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon28} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon29} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon30} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon31} alt="Star" src="./images/Star.png" />
+<img className={styles.purpleNana2} alt="Purple Nana" src="./images/Purple Nana.jpg" />
+<img className={styles.chocoHealthy2} alt="Choco Healthy" src="./images/Choco Healthy.jpg" />
+<img className={styles.mixFruitSalad1} alt="Mix Fruit Salad" src="./images/Mix Fruit Salad.jpg" />
+<img className={styles.ranchChickenSalad2} alt="Ranch Chicken Salad" src="./images/Ranch Chicken Salad.jpg" />
+<img className={styles.citrusFennel2} alt="Citrus Fennel" src="./images/Citrus Fennel.jpg" />
 
       			<div className={styles.homepageChild35} />
       			<div className={styles.homepageChild36} />
@@ -310,13 +310,13 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.div32}>5.0</div>
       			<div className={styles.div33}>5.0</div>
       			<div className={styles.div34}>4.9</div>
-      			<img className={styles.starIcon32} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon33} alt="Star" src="./public/images/Star.png" />
-<img className={styles.starIcon34} alt="Star" src="./public/images/Star.png" />
-<img className={styles.greentea2Icon} alt="Greentea" src="./public/images/greentea.jpg" />
-<img className={styles.chocoOatLatte} alt="Choco Oat Latte" src="./public/images/Choco Oat Latte.jpg" />
-<img className={styles.cappuccinoIcon} alt="Cappuccino" src="./public/images/Cappuccino.jpg" />
-<img className={styles.bakedSalmonIcon} alt="Baked Salmon" src="./public/images/BAKED SALMON.jpg" />
+      			<img className={styles.starIcon32} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon33} alt="Star" src="./images/Star.png" />
+<img className={styles.starIcon34} alt="Star" src="./images/Star.png" />
+<img className={styles.greentea2Icon} alt="Greentea" src="./images/greentea.jpg" />
+<img className={styles.chocoOatLatte} alt="Choco Oat Latte" src="./images/Choco Oat Latte.jpg" />
+<img className={styles.cappuccinoIcon} alt="Cappuccino" src="./images/Cappuccino.jpg" />
+<img className={styles.bakedSalmonIcon} alt="Baked Salmon" src="./images/BAKED SALMON.jpg" />
 
       			<div className={styles.homepageChild38} />
       			<div className={styles.homepageChild39} />
@@ -330,7 +330,7 @@ const HOMEPAGE:FunctionComponent = () => {
       			<div className={styles.homepageChild47} />
       			<div className={styles.cartParent} onClick={onCartTextClick}>
         				<div className={styles.cart}>CART</div>
-        				<img className={styles.shoppingCartIcon} alt="" src="./public/images/Shopping Cart.png" />
+        				<img className={styles.shoppingCartIcon} alt="" src="./images/Shopping Cart.png" />
       			</div>
     		</div>);
 };

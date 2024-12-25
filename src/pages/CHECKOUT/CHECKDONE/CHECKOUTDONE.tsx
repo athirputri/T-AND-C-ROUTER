@@ -11,7 +11,7 @@ const CHECKOUTDONE:FunctionComponent = () => {
   	return (
     		<div className={styles.checkoutDone} onClick={onCHECKOUTDONEContainerClick}>
       			<div className={styles.checkoutDoneChild} />
-      			<img className={styles.verifiedIcon} alt="" src="./public/images/Verified.png" />
+      			<img className={styles.verifiedIcon} alt="" src="./images/Verified.png" />
       			<div className={styles.pesananAkanSegeraContainer}>
         				<p className={styles.pesananAkanSegera}>Pesanan akan segera diproses.</p>
         				<p className={styles.pesananAkanSegera}>mohon tunggu pemberitahuan selanjutnya.</p>

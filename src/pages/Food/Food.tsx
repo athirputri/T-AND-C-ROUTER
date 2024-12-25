@@ -9,7 +9,7 @@ const FOOD:FunctionComponent = () => {
 
   	
   	const onGroupContainerClick = useCallback(() => {
-		navigate('/homepage');
+		navigate('/');
 	}, [navigate]);
 
   	// const onWontonClick = useCallback(() => {

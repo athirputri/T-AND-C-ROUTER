@@ -24,7 +24,7 @@ const Routing = () => {
       <Route>
         {/* <Route path="signin" element={<SIGNIN />} /> */}
         {/* <Route path="login" element={<LOGIN />} /> */}
-        <Route path="homepage" element={<HOMEPAGE />} />
+        <Route path="/" element={<HOMEPAGE />} />
         <Route path="food" element={<FOOD />} />
         <Route path="profile" element={<Profile />} />
         <Route path="checkout" element={<CHECKOUT />} />
